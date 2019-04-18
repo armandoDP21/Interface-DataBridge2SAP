@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="BitacoraData" targetNamespace="http://tempuri.org/BitacoraData.xsd" xmlns:mstns="http://tempuri.org/BitacoraData.xsd" xmlns="http://tempuri.org/BitacoraData.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="ConnectionString1" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="ConnectionString1 (MySettings)" ParameterPrefix=":" PropertyReference="ApplicationSettings.My.MySettings.GlobalReference.Default.ConnectionString1" Provider="Oracle.DataAccess.Client" />
+        </Connections>
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="BitacoraData" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="BitacoraData" msprop:Generator_UserDSName="BitacoraData">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="VS_BITACORACORRIDAS" msprop:Generator_TableClassName="VS_BITACORACORRIDASDataTable" msprop:Generator_TableVarName="tableVS_BITACORACORRIDAS" msprop:Generator_TablePropName="VS_BITACORACORRIDAS" msprop:Generator_RowDeletingName="VS_BITACORACORRIDASRowDeleting" msprop:Generator_UserTableName="VS_BITACORACORRIDAS" msprop:Generator_RowChangingName="VS_BITACORACORRIDASRowChanging" msprop:Generator_RowEvHandlerName="VS_BITACORACORRIDASRowChangeEventHandler" msprop:Generator_RowDeletedName="VS_BITACORACORRIDASRowDeleted" msprop:Generator_RowEvArgName="VS_BITACORACORRIDASRowChangeEvent" msprop:Generator_RowChangedName="VS_BITACORACORRIDASRowChanged" msprop:Generator_RowClassName="VS_BITACORACORRIDASRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="PAIS_CLAVE" msprop:Generator_ColumnVarNameInTable="columnPAIS_CLAVE" msprop:Generator_ColumnPropNameInRow="PAIS_CLAVE" msprop:Generator_ColumnPropNameInTable="PAIS_CLAVEColumn" msprop:Generator_UserColumnName="PAIS_CLAVE" type="xs:decimal" />
+              <xs:element name="USUARIO_CLAVE" msprop:Generator_ColumnVarNameInTable="columnUSUARIO_CLAVE" msprop:Generator_ColumnPropNameInRow="USUARIO_CLAVE" msprop:Generator_ColumnPropNameInTable="USUARIO_CLAVEColumn" msprop:Generator_UserColumnName="USUARIO_CLAVE" type="xs:decimal" />
+              <xs:element name="USUARIO_NOMBRE" msprop:Generator_ColumnVarNameInTable="columnUSUARIO_NOMBRE" msprop:Generator_ColumnPropNameInRow="USUARIO_NOMBRE" msprop:Generator_ColumnPropNameInTable="USUARIO_NOMBREColumn" msprop:Generator_UserColumnName="USUARIO_NOMBRE">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="40" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="FECHA" msprop:Generator_ColumnVarNameInTable="columnFECHA" msprop:Generator_ColumnPropNameInRow="FECHA" msprop:Generator_ColumnPropNameInTable="FECHAColumn" msprop:Generator_UserColumnName="FECHA" type="xs:dateTime" />
+              <xs:element name="HORA" msprop:Generator_ColumnVarNameInTable="columnHORA" msprop:Generator_ColumnPropNameInRow="HORA" msprop:Generator_ColumnPropNameInTable="HORAColumn" msprop:Generator_UserColumnName="HORA">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="FECHA_CARGA" msprop:Generator_ColumnVarNameInTable="columnFECHA_CARGA" msprop:Generator_ColumnPropNameInRow="FECHA_CARGA" msprop:Generator_ColumnPropNameInTable="FECHA_CARGAColumn" msprop:Generator_UserColumnName="FECHA_CARGA" type="xs:dateTime" />
+              <xs:element name="ANO_FISCAL" msprop:Generator_ColumnVarNameInTable="columnANO_FISCAL" msprop:Generator_ColumnPropNameInRow="ANO_FISCAL" msprop:Generator_ColumnPropNameInTable="ANO_FISCALColumn" msprop:Generator_UserColumnName="ANO_FISCAL" type="xs:decimal" />
+              <xs:element name="PERIODO" msprop:Generator_ColumnVarNameInTable="columnPERIODO" msprop:Generator_ColumnPropNameInRow="PERIODO" msprop:Generator_ColumnPropNameInTable="PERIODOColumn" msprop:Generator_UserColumnName="PERIODO">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="3" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SEMANA" msprop:Generator_ColumnVarNameInTable="columnSEMANA" msprop:Generator_ColumnPropNameInRow="SEMANA" msprop:Generator_ColumnPropNameInTable="SEMANAColumn" msprop:Generator_UserColumnName="SEMANA" type="xs:short" />
+              <xs:element name="STATUS_CORRIDA" msprop:Generator_ColumnVarNameInTable="columnSTATUS_CORRIDA" msprop:Generator_ColumnPropNameInRow="STATUS_CORRIDA" msprop:Generator_ColumnPropNameInTable="STATUS_CORRIDAColumn" msprop:Generator_UserColumnName="STATUS_CORRIDA">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="NOMBRE_INTERFASE" msprop:Generator_ColumnVarNameInTable="columnNOMBRE_INTERFASE" msprop:Generator_ColumnPropNameInRow="NOMBRE_INTERFASE" msprop:Generator_ColumnPropNameInTable="NOMBRE_INTERFASEColumn" msprop:Generator_UserColumnName="NOMBRE_INTERFASE">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="REGISTROS" msprop:Generator_ColumnVarNameInTable="columnREGISTROS" msprop:Generator_ColumnPropNameInRow="REGISTROS" msprop:Generator_ColumnPropNameInTable="REGISTROSColumn" msprop:Generator_UserColumnName="REGISTROS" type="xs:int" />
+              <xs:element name="TIEMPO_EJECUCION" msprop:Generator_ColumnVarNameInTable="columnTIEMPO_EJECUCION" msprop:Generator_ColumnPropNameInRow="TIEMPO_EJECUCION" msprop:Generator_ColumnPropNameInTable="TIEMPO_EJECUCIONColumn" msprop:Generator_UserColumnName="TIEMPO_EJECUCION" type="xs:double" />
+              <xs:element name="PREFIJO_MODULO" msprop:Generator_ColumnVarNameInTable="columnPREFIJO_MODULO" msprop:Generator_ColumnPropNameInRow="PREFIJO_MODULO" msprop:Generator_ColumnPropNameInTable="PREFIJO_MODULOColumn" msprop:Generator_UserColumnName="PREFIJO_MODULO">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SECUENCIA_INICIA" msprop:Generator_ColumnVarNameInTable="columnSECUENCIA_INICIA" msprop:Generator_ColumnPropNameInRow="SECUENCIA_INICIA" msprop:Generator_ColumnPropNameInTable="SECUENCIA_INICIAColumn" msprop:Generator_UserColumnName="SECUENCIA_INICIA" type="xs:long" />
+              <xs:element name="SECUENCIA_TERMINA" msprop:Generator_ColumnVarNameInTable="columnSECUENCIA_TERMINA" msprop:Generator_ColumnPropNameInRow="SECUENCIA_TERMINA" msprop:Generator_ColumnPropNameInTable="SECUENCIA_TERMINAColumn" msprop:Generator_UserColumnName="SECUENCIA_TERMINA" type="xs:long" />
+              <xs:element name="SO" msprop:Generator_ColumnVarNameInTable="columnSO" msprop:Generator_ColumnPropNameInRow="SO" msprop:Generator_ColumnPropNameInTable="SOColumn" msprop:Generator_UserColumnName="SO">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="OS_VERSION" msprop:Generator_ColumnVarNameInTable="columnOS_VERSION" msprop:Generator_ColumnPropNameInRow="OS_VERSION" msprop:Generator_ColumnPropNameInTable="OS_VERSIONColumn" msprop:Generator_UserColumnName="OS_VERSION">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="MACHINE_NAME" msprop:Generator_ColumnVarNameInTable="columnMACHINE_NAME" msprop:Generator_ColumnPropNameInRow="MACHINE_NAME" msprop:Generator_ColumnPropNameInTable="MACHINE_NAMEColumn" msprop:Generator_UserColumnName="MACHINE_NAME">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

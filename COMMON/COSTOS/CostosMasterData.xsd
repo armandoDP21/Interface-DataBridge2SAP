@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="CostosMasterData" targetNamespace="http://tempuri.org/CostosMasterData.xsd" xmlns:mstns="http://tempuri.org/CostosMasterData.xsd" xmlns="http://tempuri.org/CostosMasterData.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="ConnectionString1" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="ConnectionString1 (MySettings)" ParameterPrefix=":" PropertyReference="ApplicationSettings.My.MySettings.GlobalReference.Default.ConnectionString1" Provider="Oracle.DataAccess.Client" />
+        </Connections>
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="CostosMasterData" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="CostosMasterData" msprop:Generator_UserDSName="CostosMasterData">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="SUCURSALES" msprop:Generator_TableClassName="SUCURSALESDataTable" msprop:Generator_TableVarName="tableSUCURSALES" msprop:Generator_TablePropName="SUCURSALES" msprop:Generator_RowDeletingName="SUCURSALESRowDeleting" msprop:Generator_UserTableName="SUCURSALES" msprop:Generator_RowChangingName="SUCURSALESRowChanging" msprop:Generator_RowEvHandlerName="SUCURSALESRowChangeEventHandler" msprop:Generator_RowDeletedName="SUCURSALESRowDeleted" msprop:Generator_RowEvArgName="SUCURSALESRowChangeEvent" msprop:Generator_RowChangedName="SUCURSALESRowChanged" msprop:Generator_RowClassName="SUCURSALESRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="SUCURSAL_CLAVE" msprop:Generator_ColumnVarNameInTable="columnSUCURSAL_CLAVE" msprop:Generator_ColumnPropNameInRow="SUCURSAL_CLAVE" msprop:Generator_ColumnPropNameInTable="SUCURSAL_CLAVEColumn" msprop:Generator_UserColumnName="SUCURSAL_CLAVE" type="xs:decimal" />
+              <xs:element name="SUCURSAL_DESCRIPCION" msprop:Generator_ColumnVarNameInTable="columnSUCURSAL_DESCRIPCION" msprop:Generator_ColumnPropNameInRow="SUCURSAL_DESCRIPCION" msprop:Generator_ColumnPropNameInTable="SUCURSAL_DESCRIPCIONColumn" msprop:Generator_UserColumnName="SUCURSAL_DESCRIPCION" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="150" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SAP_CENTROCOSTO" msprop:Generator_ColumnVarNameInTable="columnSAP_CENTROCOSTO" msprop:Generator_ColumnPropNameInRow="SAP_CENTROCOSTO" msprop:Generator_ColumnPropNameInTable="SAP_CENTROCOSTOColumn" msprop:Generator_UserColumnName="SAP_CENTROCOSTO" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DB_LINK" msprop:Generator_ColumnVarNameInTable="columnDB_LINK" msprop:Generator_ColumnPropNameInRow="DB_LINK" msprop:Generator_ColumnPropNameInTable="DB_LINKColumn" msprop:Generator_UserColumnName="DB_LINK" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SAP_CENTROBENEFICIO" msprop:Generator_ColumnVarNameInTable="columnSAP_CENTROBENEFICIO" msprop:Generator_ColumnPropNameInRow="SAP_CENTROBENEFICIO" msprop:Generator_ColumnPropNameInTable="SAP_CENTROBENEFICIOColumn" msprop:Generator_UserColumnName="SAP_CENTROBENEFICIO" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="14" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SAP_CENTROGASTO" msprop:Generator_ColumnVarNameInTable="columnSAP_CENTROGASTO" msprop:Generator_ColumnPropNameInRow="SAP_CENTROGASTO" msprop:Generator_ColumnPropNameInTable="SAP_CENTROGASTOColumn" msprop:Generator_UserColumnName="SAP_CENTROGASTO" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="CATALOGOEMBARQUES" msprop:Generator_TableClassName="CATALOGOEMBARQUESDataTable" msprop:Generator_TableVarName="tableCATALOGOEMBARQUES" msprop:Generator_TablePropName="CATALOGOEMBARQUES" msprop:Generator_RowDeletingName="CATALOGOEMBARQUESRowDeleting" msprop:Generator_UserTableName="CATALOGOEMBARQUES" msprop:Generator_RowChangingName="CATALOGOEMBARQUESRowChanging" msprop:Generator_RowEvHandlerName="CATALOGOEMBARQUESRowChangeEventHandler" msprop:Generator_RowDeletedName="CATALOGOEMBARQUESRowDeleted" msprop:Generator_RowEvArgName="CATALOGOEMBARQUESRowChangeEvent" msprop:Generator_RowChangedName="CATALOGOEMBARQUESRowChanged" msprop:Generator_RowClassName="CATALOGOEMBARQUESRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="MOV_CLAVE" msprop:Generator_ColumnVarNameInTable="columnMOV_CLAVE" msprop:Generator_ColumnPropNameInRow="MOV_CLAVE" msprop:Generator_ColumnPropNameInTable="MOV_CLAVEColumn" msprop:Generator_UserColumnName="MOV_CLAVE" type="xs:decimal" />
+              <xs:element name="DESCRIPCION" msprop:Generator_ColumnVarNameInTable="columnDESCRIPCION" msprop:Generator_ColumnPropNameInRow="DESCRIPCION" msprop:Generator_ColumnPropNameInTable="DESCRIPCIONColumn" msprop:Generator_UserColumnName="DESCRIPCION">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="40" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="DEFINICIONGASTOS" msprop:Generator_TableClassName="DEFINICIONGASTOSDataTable" msprop:Generator_TableVarName="tableDEFINICIONGASTOS" msprop:Generator_TablePropName="DEFINICIONGASTOS" msprop:Generator_RowDeletingName="DEFINICIONGASTOSRowDeleting" msprop:Generator_UserTableName="DEFINICIONGASTOS" msprop:Generator_RowChangingName="DEFINICIONGASTOSRowChanging" msprop:Generator_RowEvHandlerName="DEFINICIONGASTOSRowChangeEventHandler" msprop:Generator_RowDeletedName="DEFINICIONGASTOSRowDeleted" msprop:Generator_RowEvArgName="DEFINICIONGASTOSRowChangeEvent" msprop:Generator_RowChangedName="DEFINICIONGASTOSRowChanged" msprop:Generator_RowClassName="DEFINICIONGASTOSRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="G_CLAVE" msprop:Generator_ColumnVarNameInTable="columnG_CLAVE" msprop:Generator_ColumnPropNameInRow="G_CLAVE" msprop:Generator_ColumnPropNameInTable="G_CLAVEColumn" msprop:Generator_UserColumnName="G_CLAVE" type="xs:decimal" />
+              <xs:element name="NOMBRE" msprop:Generator_ColumnVarNameInTable="columnNOMBRE" msprop:Generator_ColumnPropNameInRow="NOMBRE" msprop:Generator_ColumnPropNameInTable="NOMBREColumn" msprop:Generator_UserColumnName="NOMBRE">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="40" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="NIVEL" msprop:Generator_ColumnVarNameInTable="columnNIVEL" msprop:Generator_ColumnPropNameInRow="NIVEL" msprop:Generator_ColumnPropNameInTable="NIVELColumn" msprop:Generator_UserColumnName="NIVEL" type="xs:short" />
+              <xs:element name="TIPO" msprop:Generator_ColumnVarNameInTable="columnTIPO" msprop:Generator_ColumnPropNameInRow="TIPO" msprop:Generator_ColumnPropNameInTable="TIPOColumn" msprop:Generator_UserColumnName="TIPO" type="xs:short" />
+              <xs:element name="CLASE" msprop:Generator_ColumnVarNameInTable="columnCLASE" msprop:Generator_ColumnPropNameInRow="CLASE" msprop:Generator_ColumnPropNameInTable="CLASEColumn" msprop:Generator_UserColumnName="CLASE" type="xs:decimal" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

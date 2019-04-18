@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="ProcesadasData" targetNamespace="http://tempuri.org/ProcesadasData.xsd" xmlns:mstns="http://tempuri.org/ProcesadasData.xsd" xmlns="http://tempuri.org/ProcesadasData.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="ProcesadasData" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="ProcesadasData" msprop:Generator_UserDSName="ProcesadasData">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="PolizasC" msprop:Generator_TableClassName="PolizasCDataTable" msprop:Generator_TableVarName="tablePolizasC" msprop:Generator_TablePropName="PolizasC" msprop:Generator_RowDeletingName="PolizasCRowDeleting" msprop:Generator_UserTableName="PolizasC" msprop:Generator_RowChangingName="PolizasCRowChanging" msprop:Generator_RowEvHandlerName="PolizasCRowChangeEventHandler" msprop:Generator_RowDeletedName="PolizasCRowDeleted" msprop:Generator_RowEvArgName="PolizasCRowChangeEvent" msprop:Generator_RowChangedName="PolizasCRowChanged" msprop:Generator_RowClassName="PolizasCRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="DOC_HEADER_TEXT" msprop:Generator_ColumnVarNameInTable="columnDOC_HEADER_TEXT" msprop:Generator_ColumnPropNameInRow="DOC_HEADER_TEXT" msprop:Generator_ColumnPropNameInTable="DOC_HEADER_TEXTColumn" msprop:Generator_UserColumnName="DOC_HEADER_TEXT" type="xs:string" minOccurs="0" />
+              <xs:element name="SAP_CENTROCOSTO" msprop:Generator_ColumnVarNameInTable="columnSAP_CENTROCOSTO" msprop:Generator_ColumnPropNameInRow="SAP_CENTROCOSTO" msprop:Generator_ColumnPropNameInTable="SAP_CENTROCOSTOColumn" msprop:Generator_UserColumnName="SAP_CENTROCOSTO" type="xs:string" minOccurs="0" />
+              <xs:element name="CUENTADR" msprop:Generator_ColumnVarNameInTable="columnCUENTADR" msprop:Generator_ColumnPropNameInRow="CUENTADR" msprop:Generator_ColumnPropNameInTable="CUENTADRColumn" msprop:Generator_UserColumnName="CUENTADR" type="xs:string" minOccurs="0" />
+              <xs:element name="MONTODR" msprop:Generator_ColumnVarNameInTable="columnMONTODR" msprop:Generator_ColumnPropNameInRow="MONTODR" msprop:Generator_ColumnPropNameInTable="MONTODRColumn" msprop:Generator_UserColumnName="MONTODR" type="xs:decimal" minOccurs="0" />
+              <xs:element name="CUENTACR" msprop:Generator_ColumnVarNameInTable="columnCUENTACR" msprop:Generator_ColumnPropNameInRow="CUENTACR" msprop:Generator_ColumnPropNameInTable="CUENTACRColumn" msprop:Generator_UserColumnName="CUENTACR" type="xs:string" minOccurs="0" />
+              <xs:element name="MONTOCR" msprop:Generator_ColumnVarNameInTable="columnMONTOCR" msprop:Generator_ColumnPropNameInRow="MONTOCR" msprop:Generator_ColumnPropNameInTable="MONTOCRColumn" msprop:Generator_UserColumnName="MONTOCR" type="xs:decimal" minOccurs="0" />
+              <xs:element name="CENTRO" msprop:Generator_ColumnVarNameInTable="columnCENTRO" msprop:Generator_ColumnPropNameInRow="CENTRO" msprop:Generator_ColumnPropNameInTable="CENTROColumn" msprop:Generator_UserColumnName="CENTRO" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Secuencia" msprop:Generator_ColumnVarNameInTable="columnSecuencia" msprop:Generator_ColumnPropNameInRow="Secuencia" msprop:Generator_ColumnPropNameInTable="SecuenciaColumn" msprop:Generator_UserColumnName="Secuencia" type="xs:int" minOccurs="0" />
+              <xs:element name="SUC_CLAVE" msprop:Generator_ColumnVarNameInTable="columnSUC_CLAVE" msprop:Generator_ColumnPropNameInRow="SUC_CLAVE" msprop:Generator_ColumnPropNameInTable="SUC_CLAVEColumn" msprop:Generator_UserColumnName="SUC_CLAVE" type="xs:string" minOccurs="0" />
+              <xs:element name="ASSIGNMENT" msprop:Generator_ColumnVarNameInTable="columnASSIGNMENT" msprop:Generator_ColumnPropNameInRow="ASSIGNMENT" msprop:Generator_ColumnPropNameInTable="ASSIGNMENTColumn" msprop:Generator_UserColumnName="ASSIGNMENT" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="18" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

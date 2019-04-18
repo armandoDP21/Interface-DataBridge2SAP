@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="ODS_MOVIMIENTOPRODUCTO_SEGREGADO" targetNamespace="http://tempuri.org/ODS_MOVIMIENTOPRODUCTO_SEGREGADO.xsd" xmlns:mstns="http://tempuri.org/ODS_MOVIMIENTOPRODUCTO_SEGREGADO.xsd" xmlns="http://tempuri.org/ODS_MOVIMIENTOPRODUCTO_SEGREGADO.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="ODS_MOVIMIENTOPRODUCTO_SEGREGADO" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="ODS_MOVIMIENTOPRODUCTO_SEGREGADO" msprop:Generator_UserDSName="ODS_MOVIMIENTOPRODUCTO_SEGREGADO">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="ODS_MOVIMIENTOPRODUCTO_SEGREGADO" msprop:Generator_TableClassName="ODS_MOVIMIENTOPRODUCTO_SEGREGADODataTable" msprop:Generator_TableVarName="tableODS_MOVIMIENTOPRODUCTO_SEGREGADO" msprop:Generator_TablePropName="_ODS_MOVIMIENTOPRODUCTO_SEGREGADO" msprop:Generator_RowDeletingName="ODS_MOVIMIENTOPRODUCTO_SEGREGADORowDeleting" msprop:Generator_UserTableName="ODS_MOVIMIENTOPRODUCTO_SEGREGADO" msprop:Generator_RowChangingName="ODS_MOVIMIENTOPRODUCTO_SEGREGADORowChanging" msprop:Generator_RowEvHandlerName="ODS_MOVIMIENTOPRODUCTO_SEGREGADORowChangeEventHandler" msprop:Generator_RowDeletedName="ODS_MOVIMIENTOPRODUCTO_SEGREGADORowDeleted" msprop:Generator_RowEvArgName="ODS_MOVIMIENTOPRODUCTO_SEGREGADORowChangeEvent" msprop:Generator_RowChangedName="ODS_MOVIMIENTOPRODUCTO_SEGREGADORowChanged" msprop:Generator_RowClassName="ODS_MOVIMIENTOPRODUCTO_SEGREGADORow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="MOV_CLAVE" msprop:Generator_ColumnVarNameInTable="columnMOV_CLAVE" msprop:Generator_ColumnPropNameInRow="MOV_CLAVE" msprop:Generator_ColumnPropNameInTable="MOV_CLAVEColumn" msprop:Generator_UserColumnName="MOV_CLAVE" type="xs:long" minOccurs="0" />
+              <xs:element name="SAP_CENTROCOSTODR" msprop:Generator_ColumnVarNameInTable="columnSAP_CENTROCOSTODR" msprop:Generator_ColumnPropNameInRow="SAP_CENTROCOSTODR" msprop:Generator_ColumnPropNameInTable="SAP_CENTROCOSTODRColumn" msprop:Generator_UserColumnName="SAP_CENTROCOSTODR" type="xs:string" minOccurs="0" />
+              <xs:element name="SAP_CENTROCOSTOCR" msprop:Generator_ColumnVarNameInTable="columnSAP_CENTROCOSTOCR" msprop:Generator_ColumnPropNameInRow="SAP_CENTROCOSTOCR" msprop:Generator_ColumnPropNameInTable="SAP_CENTROCOSTOCRColumn" msprop:Generator_UserColumnName="SAP_CENTROCOSTOCR" type="xs:string" minOccurs="0" />
+              <xs:element name="TOTAL" msprop:Generator_ColumnVarNameInTable="columnTOTAL" msprop:Generator_ColumnPropNameInRow="TOTAL" msprop:Generator_ColumnPropNameInTable="TOTALColumn" msprop:Generator_UserColumnName="TOTAL" type="xs:decimal" minOccurs="0" />
+              <xs:element name="ESBENEFICIODR" msprop:Generator_ColumnVarNameInTable="columnESBENEFICIODR" msprop:Generator_ColumnPropNameInRow="ESBENEFICIODR" msprop:Generator_ColumnPropNameInTable="ESBENEFICIODRColumn" msprop:Generator_UserColumnName="ESBENEFICIODR" type="xs:boolean" default="false" minOccurs="0" />
+              <xs:element name="ESBENEFICIOCR" msprop:Generator_ColumnVarNameInTable="columnESBENEFICIOCR" msprop:Generator_ColumnPropNameInRow="ESBENEFICIOCR" msprop:Generator_ColumnPropNameInTable="ESBENEFICIOCRColumn" msprop:Generator_UserColumnName="ESBENEFICIOCR" type="xs:boolean" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="ODS_MOVIMIENTOPRODUCTO_AGRUPADO" msprop:Generator_TableClassName="ODS_MOVIMIENTOPRODUCTO_AGRUPADODataTable" msprop:Generator_TableVarName="tableODS_MOVIMIENTOPRODUCTO_AGRUPADO" msprop:Generator_TablePropName="ODS_MOVIMIENTOPRODUCTO_AGRUPADO" msprop:Generator_RowDeletingName="ODS_MOVIMIENTOPRODUCTO_AGRUPADORowDeleting" msprop:Generator_UserTableName="ODS_MOVIMIENTOPRODUCTO_AGRUPADO" msprop:Generator_RowChangingName="ODS_MOVIMIENTOPRODUCTO_AGRUPADORowChanging" msprop:Generator_RowEvHandlerName="ODS_MOVIMIENTOPRODUCTO_AGRUPADORowChangeEventHandler" msprop:Generator_RowDeletedName="ODS_MOVIMIENTOPRODUCTO_AGRUPADORowDeleted" msprop:Generator_RowEvArgName="ODS_MOVIMIENTOPRODUCTO_AGRUPADORowChangeEvent" msprop:Generator_RowChangedName="ODS_MOVIMIENTOPRODUCTO_AGRUPADORowChanged" msprop:Generator_RowClassName="ODS_MOVIMIENTOPRODUCTO_AGRUPADORow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="MOV_CLAVE" msprop:Generator_ColumnVarNameInTable="columnMOV_CLAVE" msprop:Generator_ColumnPropNameInRow="MOV_CLAVE" msprop:Generator_ColumnPropNameInTable="MOV_CLAVEColumn" msprop:Generator_UserColumnName="MOV_CLAVE" type="xs:long" minOccurs="0" />
+              <xs:element name="SAP_CENTROCOSTODR" msprop:Generator_ColumnVarNameInTable="columnSAP_CENTROCOSTODR" msprop:Generator_ColumnPropNameInRow="SAP_CENTROCOSTODR" msprop:Generator_ColumnPropNameInTable="SAP_CENTROCOSTODRColumn" msprop:Generator_UserColumnName="SAP_CENTROCOSTODR" type="xs:string" minOccurs="0" />
+              <xs:element name="SAP_CENTROCOSTOCR" msprop:Generator_ColumnVarNameInTable="columnSAP_CENTROCOSTOCR" msprop:Generator_ColumnPropNameInRow="SAP_CENTROCOSTOCR" msprop:Generator_ColumnPropNameInTable="SAP_CENTROCOSTOCRColumn" msprop:Generator_UserColumnName="SAP_CENTROCOSTOCR" type="xs:string" minOccurs="0" />
+              <xs:element name="MONTO" msprop:Generator_ColumnVarNameInTable="columnMONTO" msprop:Generator_ColumnPropNameInRow="MONTO" msprop:Generator_ColumnPropNameInTable="MONTOColumn" msprop:Generator_UserColumnName="MONTO" type="xs:decimal" minOccurs="0" />
+              <xs:element name="ESBENEFICIODR" msprop:Generator_ColumnVarNameInTable="columnESBENEFICIODR" msprop:Generator_ColumnPropNameInRow="ESBENEFICIODR" msprop:Generator_ColumnPropNameInTable="ESBENEFICIODRColumn" msprop:Generator_UserColumnName="ESBENEFICIODR" type="xs:boolean" default="false" minOccurs="0" />
+              <xs:element name="ESBENEFICIOCR" msprop:Generator_ColumnVarNameInTable="columnESBENEFICIOCR" msprop:Generator_ColumnPropNameInRow="ESBENEFICIOCR" msprop:Generator_ColumnPropNameInTable="ESBENEFICIOCRColumn" msprop:Generator_UserColumnName="ESBENEFICIOCR" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="DesgloseMOV" msprop:Generator_TableClassName="DesgloseMOVDataTable" msprop:Generator_TableVarName="tableDesgloseMOV" msprop:Generator_TablePropName="DesgloseMOV" msprop:Generator_RowDeletingName="DesgloseMOVRowDeleting" msprop:Generator_UserTableName="DesgloseMOV" msprop:Generator_RowChangingName="DesgloseMOVRowChanging" msprop:Generator_RowEvHandlerName="DesgloseMOVRowChangeEventHandler" msprop:Generator_RowDeletedName="DesgloseMOVRowDeleted" msprop:Generator_RowEvArgName="DesgloseMOVRowChangeEvent" msprop:Generator_RowChangedName="DesgloseMOVRowChanged" msprop:Generator_RowClassName="DesgloseMOVRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="MOV_CLAVE" msprop:Generator_ColumnVarNameInTable="columnMOV_CLAVE" msprop:Generator_ColumnPropNameInRow="MOV_CLAVE" msprop:Generator_ColumnPropNameInTable="MOV_CLAVEColumn" msprop:Generator_UserColumnName="MOV_CLAVE" type="xs:long" minOccurs="0" />
+              <xs:element name="PRO_CLAVE" msprop:nullValue="_empty" msprop:Generator_ColumnPropNameInRow="PRO_CLAVE" msprop:Generator_ColumnVarNameInTable="columnPRO_CLAVE" msprop:Generator_ColumnPropNameInTable="PRO_CLAVEColumn" msprop:Generator_UserColumnName="PRO_CLAVE">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DMP_CANTID" msprop:Generator_ColumnVarNameInTable="columnDMP_CANTID" msprop:Generator_ColumnPropNameInRow="DMP_CANTID" msprop:Generator_ColumnPropNameInTable="DMP_CANTIDColumn" msprop:Generator_UserColumnName="DMP_CANTID" type="xs:decimal" minOccurs="0" />
+              <xs:element name="TOTAL_COSTO_PRODUCT0" msprop:Generator_ColumnVarNameInTable="columnTOTAL_COSTO_PRODUCT0" msprop:Generator_ColumnPropNameInRow="TOTAL_COSTO_PRODUCT0" msprop:Generator_ColumnPropNameInTable="TOTAL_COSTO_PRODUCT0Column" msprop:Generator_UserColumnName="TOTAL_COSTO_PRODUCT0" type="xs:decimal" minOccurs="0" />
+              <xs:element name="SUC_CLAVE" msprop:Generator_ColumnVarNameInTable="columnSUC_CLAVE" msprop:Generator_ColumnPropNameInRow="SUC_CLAVE" msprop:Generator_ColumnPropNameInTable="SUC_CLAVEColumn" msprop:Generator_UserColumnName="SUC_CLAVE" type="xs:long" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

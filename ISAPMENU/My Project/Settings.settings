@@ -1,0 +1,24 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="My" GeneratedClassName="MySettings" UseMySettingsClassName="true">
+  <Profiles />
+  <Settings>
+    <Setting Name="LinkCognos" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">http://pepwav11708.fritolayca.mex.pi.pvt/cognos8/cgi-bin/cognos.cgi?b_action=xts.run&amp;m=portal/main.xts&amp;startwel=yes</Value>
+    </Setting>
+    <Setting Name="PathFiles" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="FechaDesde" Type="System.DateTime" Scope="User">
+      <Value Profile="(Default)">2011-11-04</Value>
+    </Setting>
+    <Setting Name="FechaHasta" Type="System.DateTime" Scope="User">
+      <Value Profile="(Default)">2011-11-10</Value>
+    </Setting>
+    <Setting Name="GPIDText" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="Secuencia" Type="System.Int64" Scope="User">
+      <Value Profile="(Default)">1</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

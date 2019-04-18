@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="ImpuestosProductoData" targetNamespace="http://tempuri.org/ImpuestosProductoData.xsd" xmlns:mstns="http://tempuri.org/ImpuestosProductoData.xsd" xmlns="http://tempuri.org/ImpuestosProductoData.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="ConnectionString1" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="ConnectionString1 (MySettings)" ParameterPrefix=":" PropertyReference="ApplicationSettings.My.MySettings.GlobalReference.Default.ConnectionString1" Provider="Oracle.DataAccess.Client" />
+        </Connections>
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="ImpuestosProductoData" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="ImpuestosProductoData" msprop:Generator_UserDSName="ImpuestosProductoData">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="VS_ODSTMFPRODUCTO" msprop:Generator_TableClassName="VS_ODSTMFPRODUCTODataTable" msprop:Generator_TableVarName="tableVS_ODSTMFPRODUCTO" msprop:Generator_TablePropName="VS_ODSTMFPRODUCTO" msprop:Generator_RowDeletingName="VS_ODSTMFPRODUCTORowDeleting" msprop:Generator_UserTableName="VS_ODSTMFPRODUCTO" msprop:Generator_RowChangingName="VS_ODSTMFPRODUCTORowChanging" msprop:Generator_RowEvHandlerName="VS_ODSTMFPRODUCTORowChangeEventHandler" msprop:Generator_RowDeletedName="VS_ODSTMFPRODUCTORowDeleted" msprop:Generator_RowEvArgName="VS_ODSTMFPRODUCTORowChangeEvent" msprop:Generator_RowChangedName="VS_ODSTMFPRODUCTORowChanged" msprop:Generator_RowClassName="VS_ODSTMFPRODUCTORow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="PRO_CLAVE" msprop:Generator_ColumnVarNameInTable="columnPRO_CLAVE" msprop:Generator_ColumnPropNameInRow="PRO_CLAVE" msprop:Generator_ColumnPropNameInTable="PRO_CLAVEColumn" msprop:Generator_UserColumnName="PRO_CLAVE">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PRO_IVASN" msprop:Generator_ColumnVarNameInTable="columnPRO_IVASN" msprop:Generator_ColumnPropNameInRow="PRO_IVASN" msprop:Generator_ColumnPropNameInTable="PRO_IVASNColumn" msprop:Generator_UserColumnName="PRO_IVASN">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PRO_IVADET" msprop:Generator_ColumnVarNameInTable="columnPRO_IVADET" msprop:Generator_ColumnPropNameInRow="PRO_IVADET" msprop:Generator_ColumnPropNameInTable="PRO_IVADETColumn" msprop:Generator_UserColumnName="PRO_IVADET" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

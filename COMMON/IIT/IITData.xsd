@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="IITData" targetNamespace="http://tempuri.org/IITData.xsd" xmlns:mstns="http://tempuri.org/IITData.xsd" xmlns="http://tempuri.org/IITData.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="ConnectionString1" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="ConnectionString1 (MySettings)" ParameterPrefix=":" PropertyReference="ApplicationSettings.My.MySettings.GlobalReference.Default.ConnectionString1" Provider="Oracle.DataAccess.Client" />
+        </Connections>
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="IITData" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="IITData" msprop:Generator_UserDSName="IITData">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="MaestroInventario" msprop:Generator_TableClassName="MaestroInventarioDataTable" msprop:Generator_TableVarName="tableMaestroInventario" msprop:Generator_TablePropName="MaestroInventario" msprop:Generator_RowDeletingName="MaestroInventarioRowDeleting" msprop:Generator_UserTableName="MaestroInventario" msprop:Generator_RowChangingName="MaestroInventarioRowChanging" msprop:Generator_RowEvHandlerName="MaestroInventarioRowChangeEventHandler" msprop:Generator_RowDeletedName="MaestroInventarioRowDeleted" msprop:Generator_RowEvArgName="MaestroInventarioRowChangeEvent" msprop:Generator_RowChangedName="MaestroInventarioRowChanged" msprop:Generator_RowClassName="MaestroInventarioRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="NUM_REMISION" msprop:Generator_ColumnVarNameInTable="columnNUM_REMISION" msprop:Generator_ColumnPropNameInRow="NUM_REMISION" msprop:Generator_ColumnPropNameInTable="NUM_REMISIONColumn" msprop:Generator_UserColumnName="NUM_REMISION">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SUCURSAL" msprop:Generator_ColumnVarNameInTable="columnSUCURSAL" msprop:Generator_ColumnPropNameInRow="SUCURSAL" msprop:Generator_ColumnPropNameInTable="SUCURSALColumn" msprop:Generator_UserColumnName="SUCURSAL" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="FECHA_REGISTRO" msprop:Generator_ColumnVarNameInTable="columnFECHA_REGISTRO" msprop:Generator_ColumnPropNameInRow="FECHA_REGISTRO" msprop:Generator_ColumnPropNameInTable="FECHA_REGISTROColumn" msprop:Generator_UserColumnName="FECHA_REGISTRO" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="ID_TRANSPORTE" msprop:Generator_ColumnVarNameInTable="columnID_TRANSPORTE" msprop:Generator_ColumnPropNameInRow="ID_TRANSPORTE" msprop:Generator_ColumnPropNameInTable="ID_TRANSPORTEColumn" msprop:Generator_UserColumnName="ID_TRANSPORTE" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="FECHA_ENTREGA" msprop:Generator_ColumnVarNameInTable="columnFECHA_ENTREGA" msprop:Generator_ColumnPropNameInRow="FECHA_ENTREGA" msprop:Generator_ColumnPropNameInTable="FECHA_ENTREGAColumn" msprop:Generator_UserColumnName="FECHA_ENTREGA" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="CARTA_PORTE" msprop:Generator_ColumnVarNameInTable="columnCARTA_PORTE" msprop:Generator_ColumnPropNameInRow="CARTA_PORTE" msprop:Generator_ColumnPropNameInTable="CARTA_PORTEColumn" msprop:Generator_UserColumnName="CARTA_PORTE" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="35" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="STATUS_PROCESADO_DCT" msprop:Generator_ColumnVarNameInTable="columnSTATUS_PROCESADO_DCT" msprop:Generator_ColumnPropNameInRow="STATUS_PROCESADO_DCT" msprop:Generator_ColumnPropNameInTable="STATUS_PROCESADO_DCTColumn" msprop:Generator_UserColumnName="STATUS_PROCESADO_DCT" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="STATUS_SAP" msprop:Generator_ColumnVarNameInTable="columnSTATUS_SAP" msprop:Generator_ColumnPropNameInRow="STATUS_SAP" msprop:Generator_ColumnPropNameInTable="STATUS_SAPColumn" msprop:Generator_UserColumnName="STATUS_SAP" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="TIPO_MOVIMIENTO" msprop:Generator_ColumnVarNameInTable="columnTIPO_MOVIMIENTO" msprop:Generator_ColumnPropNameInRow="TIPO_MOVIMIENTO" msprop:Generator_ColumnPropNameInTable="TIPO_MOVIMIENTOColumn" msprop:Generator_UserColumnName="TIPO_MOVIMIENTO" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SUCURSAL_REMISION" msprop:Generator_ColumnVarNameInTable="columnSUCURSAL_REMISION" msprop:Generator_ColumnPropNameInRow="SUCURSAL_REMISION" msprop:Generator_ColumnPropNameInTable="SUCURSAL_REMISIONColumn" msprop:Generator_UserColumnName="SUCURSAL_REMISION" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PAIS_CLAVE" msprop:Generator_ColumnVarNameInTable="columnPAIS_CLAVE" msprop:Generator_ColumnPropNameInRow="PAIS_CLAVE" msprop:Generator_ColumnPropNameInTable="PAIS_CLAVEColumn" msprop:Generator_UserColumnName="PAIS_CLAVE" type="xs:decimal" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="DetalleInventario" msprop:Generator_TableClassName="DetalleInventarioDataTable" msprop:Generator_TableVarName="tableDetalleInventario" msprop:Generator_TablePropName="DetalleInventario" msprop:Generator_RowDeletingName="DetalleInventarioRowDeleting" msprop:Generator_UserTableName="DetalleInventario" msprop:Generator_RowChangingName="DetalleInventarioRowChanging" msprop:Generator_RowEvHandlerName="DetalleInventarioRowChangeEventHandler" msprop:Generator_RowDeletedName="DetalleInventarioRowDeleted" msprop:Generator_RowEvArgName="DetalleInventarioRowChangeEvent" msprop:Generator_RowChangedName="DetalleInventarioRowChanged" msprop:Generator_RowClassName="DetalleInventarioRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="NUM_REMISION" msprop:Generator_ColumnVarNameInTable="columnNUM_REMISION" msprop:Generator_ColumnPropNameInRow="NUM_REMISION" msprop:Generator_ColumnPropNameInTable="NUM_REMISIONColumn" msprop:Generator_UserColumnName="NUM_REMISION">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="COD_PRODUCTO" msprop:Generator_ColumnVarNameInTable="columnCOD_PRODUCTO" msprop:Generator_ColumnPropNameInRow="COD_PRODUCTO" msprop:Generator_ColumnPropNameInTable="COD_PRODUCTOColumn" msprop:Generator_UserColumnName="COD_PRODUCTO">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="18" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CANTIDAD_ENTREGADA" msprop:Generator_ColumnVarNameInTable="columnCANTIDAD_ENTREGADA" msprop:Generator_ColumnPropNameInRow="CANTIDAD_ENTREGADA" msprop:Generator_ColumnPropNameInTable="CANTIDAD_ENTREGADAColumn" msprop:Generator_UserColumnName="CANTIDAD_ENTREGADA" type="xs:double" minOccurs="0" />
+              <xs:element name="STATUS_PROCESADO_DCT" msprop:Generator_ColumnVarNameInTable="columnSTATUS_PROCESADO_DCT" msprop:Generator_ColumnPropNameInRow="STATUS_PROCESADO_DCT" msprop:Generator_ColumnPropNameInTable="STATUS_PROCESADO_DCTColumn" msprop:Generator_UserColumnName="STATUS_PROCESADO_DCT" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="FECHA_REGISTRO" msprop:Generator_ColumnVarNameInTable="columnFECHA_REGISTRO" msprop:Generator_ColumnPropNameInRow="FECHA_REGISTRO" msprop:Generator_ColumnPropNameInTable="FECHA_REGISTROColumn" msprop:Generator_UserColumnName="FECHA_REGISTRO" type="xs:dateTime" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

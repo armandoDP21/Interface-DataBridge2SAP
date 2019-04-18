@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="LiquidacionesData" targetNamespace="http://tempuri.org/LiquidacionesData.xsd" xmlns:mstns="http://tempuri.org/LiquidacionesData.xsd" xmlns="http://tempuri.org/LiquidacionesData.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="ConnectionString1" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="ConnectionString1 (MySettings)" ParameterPrefix=":" PropertyReference="ApplicationSettings.My.MySettings.GlobalReference.Default.ConnectionString1" Provider="Oracle.DataAccess.Client" />
+        </Connections>
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="LiquidacionesData" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="LiquidacionesData" msprop:Generator_UserDSName="LiquidacionesData">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="VS_ODS_LIQUIDACIONES" msprop:Generator_TableClassName="VS_ODS_LIQUIDACIONESDataTable" msprop:Generator_TableVarName="tableVS_ODS_LIQUIDACIONES" msprop:Generator_TablePropName="VS_ODS_LIQUIDACIONES" msprop:Generator_RowDeletingName="VS_ODS_LIQUIDACIONESRowDeleting" msprop:Generator_UserTableName="VS_ODS_LIQUIDACIONES" msprop:Generator_RowChangingName="VS_ODS_LIQUIDACIONESRowChanging" msprop:Generator_RowEvHandlerName="VS_ODS_LIQUIDACIONESRowChangeEventHandler" msprop:Generator_RowDeletedName="VS_ODS_LIQUIDACIONESRowDeleted" msprop:Generator_RowEvArgName="VS_ODS_LIQUIDACIONESRowChangeEvent" msprop:Generator_RowChangedName="VS_ODS_LIQUIDACIONESRowChanged" msprop:Generator_RowClassName="VS_ODS_LIQUIDACIONESRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="TMD_CLAVE" msprop:Generator_ColumnVarNameInTable="columnTMD_CLAVE" msprop:Generator_ColumnPropNameInRow="TMD_CLAVE" msprop:Generator_ColumnPropNameInTable="TMD_CLAVEColumn" msprop:Generator_UserColumnName="TMD_CLAVE" type="xs:decimal" />
+              <xs:element name="SUC_CLAVE" msprop:Generator_ColumnVarNameInTable="columnSUC_CLAVE" msprop:Generator_ColumnPropNameInRow="SUC_CLAVE" msprop:Generator_ColumnPropNameInTable="SUC_CLAVEColumn" msprop:Generator_UserColumnName="SUC_CLAVE" type="xs:decimal" />
+              <xs:element name="TOTAL" msprop:Generator_ColumnVarNameInTable="columnTOTAL" msprop:Generator_ColumnPropNameInRow="TOTAL" msprop:Generator_ColumnPropNameInTable="TOTALColumn" msprop:Generator_UserColumnName="TOTAL" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="VS_LIQUIDACIONESBANCOS" msprop:Generator_TableClassName="VS_LIQUIDACIONESBANCOSDataTable" msprop:Generator_TableVarName="tableVS_LIQUIDACIONESBANCOS" msprop:Generator_TablePropName="VS_LIQUIDACIONESBANCOS" msprop:Generator_RowDeletingName="VS_LIQUIDACIONESBANCOSRowDeleting" msprop:Generator_UserTableName="VS_LIQUIDACIONESBANCOS" msprop:Generator_RowChangingName="VS_LIQUIDACIONESBANCOSRowChanging" msprop:Generator_RowEvHandlerName="VS_LIQUIDACIONESBANCOSRowChangeEventHandler" msprop:Generator_RowDeletedName="VS_LIQUIDACIONESBANCOSRowDeleted" msprop:Generator_RowEvArgName="VS_LIQUIDACIONESBANCOSRowChangeEvent" msprop:Generator_RowChangedName="VS_LIQUIDACIONESBANCOSRowChanged" msprop:Generator_RowClassName="VS_LIQUIDACIONESBANCOSRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="TMD_CLAVE" msprop:Generator_ColumnVarNameInTable="columnTMD_CLAVE" msprop:Generator_ColumnPropNameInRow="TMD_CLAVE" msprop:Generator_ColumnPropNameInTable="TMD_CLAVEColumn" msprop:Generator_UserColumnName="TMD_CLAVE" type="xs:decimal" />
+              <xs:element name="SUC_CLAVE" msprop:Generator_ColumnVarNameInTable="columnSUC_CLAVE" msprop:Generator_ColumnPropNameInRow="SUC_CLAVE" msprop:Generator_ColumnPropNameInTable="SUC_CLAVEColumn" msprop:Generator_UserColumnName="SUC_CLAVE" type="xs:decimal" />
+              <xs:element name="TOTAL" msprop:Generator_ColumnVarNameInTable="columnTOTAL" msprop:Generator_ColumnPropNameInRow="TOTAL" msprop:Generator_ColumnPropNameInTable="TOTALColumn" msprop:Generator_UserColumnName="TOTAL" type="xs:double" minOccurs="0" />
+              <xs:element name="MDI_NUMREM" msprop:Generator_ColumnVarNameInTable="columnMDI_NUMREM" msprop:Generator_ColumnPropNameInRow="MDI_NUMREM" msprop:Generator_ColumnPropNameInTable="MDI_NUMREMColumn" msprop:Generator_UserColumnName="MDI_NUMREM" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="FECHA_DEPOSITO" msprop:Generator_ColumnVarNameInTable="columnFECHA_DEPOSITO" msprop:Generator_ColumnPropNameInRow="FECHA_DEPOSITO" msprop:Generator_ColumnPropNameInTable="FECHA_DEPOSITOColumn" msprop:Generator_UserColumnName="FECHA_DEPOSITO" type="xs:dateTime" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="BANCOSCAMSUR" msprop:Generator_TableClassName="BANCOSCAMSURDataTable" msprop:Generator_TableVarName="tableBANCOSCAMSUR" msprop:Generator_TablePropName="BANCOSCAMSUR" msprop:Generator_RowDeletingName="BANCOSCAMSURRowDeleting" msprop:Generator_UserTableName="BANCOSCAMSUR" msprop:Generator_RowChangingName="BANCOSCAMSURRowChanging" msprop:Generator_RowEvHandlerName="BANCOSCAMSURRowChangeEventHandler" msprop:Generator_RowDeletedName="BANCOSCAMSURRowDeleted" msprop:Generator_RowEvArgName="BANCOSCAMSURRowChangeEvent" msprop:Generator_RowChangedName="BANCOSCAMSURRowChanged" msprop:Generator_RowClassName="BANCOSCAMSURRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="SUC_CLAVE" msprop:Generator_ColumnVarNameInTable="columnSUC_CLAVE" msprop:Generator_ColumnPropNameInRow="SUC_CLAVE" msprop:Generator_ColumnPropNameInTable="SUC_CLAVEColumn" msprop:Generator_UserColumnName="SUC_CLAVE">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="15" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="TMO_CLAVE" msprop:Generator_ColumnVarNameInTable="columnTMO_CLAVE" msprop:Generator_ColumnPropNameInRow="TMO_CLAVE" msprop:Generator_ColumnPropNameInTable="TMO_CLAVEColumn" msprop:Generator_UserColumnName="TMO_CLAVE">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="TOTAL" msprop:Generator_ColumnVarNameInTable="columnTOTAL" msprop:Generator_ColumnPropNameInRow="TOTAL" msprop:Generator_ColumnPropNameInTable="TOTALColumn" msprop:Generator_UserColumnName="TOTAL" type="xs:decimal" minOccurs="0" />
+              <xs:element name="MDI_NUMREM" msprop:Generator_ColumnVarNameInTable="columnMDI_NUMREM" msprop:Generator_ColumnPropNameInRow="MDI_NUMREM" msprop:Generator_ColumnPropNameInTable="MDI_NUMREMColumn" msprop:Generator_UserColumnName="MDI_NUMREM" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="60" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="FECHA_DEPOSITO" msprop:Generator_ColumnVarNameInTable="columnFECHA_DEPOSITO" msprop:Generator_ColumnPropNameInRow="FECHA_DEPOSITO" msprop:Generator_ColumnPropNameInTable="FECHA_DEPOSITOColumn" msprop:Generator_UserColumnName="FECHA_DEPOSITO" type="xs:dateTime" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="DEPOSITOSCAMSUR" msprop:Generator_TableClassName="DEPOSITOSCAMSURDataTable" msprop:Generator_TableVarName="tableDEPOSITOSCAMSUR" msprop:Generator_TablePropName="DEPOSITOSCAMSUR" msprop:Generator_RowDeletingName="DEPOSITOSCAMSURRowDeleting" msprop:Generator_UserTableName="DEPOSITOSCAMSUR" msprop:Generator_RowChangingName="DEPOSITOSCAMSURRowChanging" msprop:Generator_RowEvHandlerName="DEPOSITOSCAMSURRowChangeEventHandler" msprop:Generator_RowDeletedName="DEPOSITOSCAMSURRowDeleted" msprop:Generator_RowEvArgName="DEPOSITOSCAMSURRowChangeEvent" msprop:Generator_RowChangedName="DEPOSITOSCAMSURRowChanged" msprop:Generator_RowClassName="DEPOSITOSCAMSURRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="SUC_CLAVE" msprop:Generator_ColumnVarNameInTable="columnSUC_CLAVE" msprop:Generator_ColumnPropNameInRow="SUC_CLAVE" msprop:Generator_ColumnPropNameInTable="SUC_CLAVEColumn" msprop:Generator_UserColumnName="SUC_CLAVE">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="15" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="TMO_CLAVE" msprop:Generator_ColumnVarNameInTable="columnTMO_CLAVE" msprop:Generator_ColumnPropNameInRow="TMO_CLAVE" msprop:Generator_ColumnPropNameInTable="TMO_CLAVEColumn" msprop:Generator_UserColumnName="TMO_CLAVE">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="TOTAL" msprop:Generator_ColumnVarNameInTable="columnTOTAL" msprop:Generator_ColumnPropNameInRow="TOTAL" msprop:Generator_ColumnPropNameInTable="TOTALColumn" msprop:Generator_UserColumnName="TOTAL" type="xs:decimal" minOccurs="0" />
+              <xs:element name="MDI_NUMREM" msprop:Generator_ColumnVarNameInTable="columnMDI_NUMREM" msprop:Generator_ColumnPropNameInRow="MDI_NUMREM" msprop:Generator_ColumnPropNameInTable="MDI_NUMREMColumn" msprop:Generator_UserColumnName="MDI_NUMREM" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="60" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="FECHA_DEPOSITO" msprop:Generator_ColumnVarNameInTable="columnFECHA_DEPOSITO" msprop:Generator_ColumnPropNameInRow="FECHA_DEPOSITO" msprop:Generator_ColumnPropNameInTable="FECHA_DEPOSITOColumn" msprop:Generator_UserColumnName="FECHA_DEPOSITO" type="xs:dateTime" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="DepositosQuakerSabritas" msprop:Generator_TableClassName="DepositosQuakerSabritasDataTable" msprop:Generator_TableVarName="tableDepositosQuakerSabritas" msprop:Generator_TablePropName="DepositosQuakerSabritas" msprop:Generator_RowDeletingName="DepositosQuakerSabritasRowDeleting" msprop:Generator_UserTableName="DepositosQuakerSabritas" msprop:Generator_RowChangingName="DepositosQuakerSabritasRowChanging" msprop:Generator_RowEvHandlerName="DepositosQuakerSabritasRowChangeEventHandler" msprop:Generator_RowDeletedName="DepositosQuakerSabritasRowDeleted" msprop:Generator_RowEvArgName="DepositosQuakerSabritasRowChangeEvent" msprop:Generator_RowChangedName="DepositosQuakerSabritasRowChanged" msprop:Generator_RowClassName="DepositosQuakerSabritasRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="TMD_CLAVE" msprop:Generator_ColumnVarNameInTable="columnTMD_CLAVE" msprop:Generator_ColumnPropNameInRow="TMD_CLAVE" msprop:Generator_ColumnPropNameInTable="TMD_CLAVEColumn" msprop:Generator_UserColumnName="TMD_CLAVE" type="xs:decimal" />
+              <xs:element name="SUC_CLAVE" msprop:Generator_ColumnVarNameInTable="columnSUC_CLAVE" msprop:Generator_ColumnPropNameInRow="SUC_CLAVE" msprop:Generator_ColumnPropNameInTable="SUC_CLAVEColumn" msprop:Generator_UserColumnName="SUC_CLAVE" type="xs:decimal" />
+              <xs:element name="TOTAL" msprop:Generator_ColumnVarNameInTable="columnTOTAL" msprop:Generator_ColumnPropNameInRow="TOTAL" msprop:Generator_ColumnPropNameInTable="TOTALColumn" msprop:Generator_UserColumnName="TOTAL" type="xs:double" minOccurs="0" />
+              <xs:element name="MDI_NUMREM" msprop:Generator_ColumnVarNameInTable="columnMDI_NUMREM" msprop:Generator_ColumnPropNameInRow="MDI_NUMREM" msprop:Generator_ColumnPropNameInTable="MDI_NUMREMColumn" msprop:Generator_UserColumnName="MDI_NUMREM" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="FECHA_DEPOSITO" msprop:Generator_ColumnVarNameInTable="columnFECHA_DEPOSITO" msprop:Generator_ColumnPropNameInRow="FECHA_DEPOSITO" msprop:Generator_ColumnPropNameInTable="FECHA_DEPOSITOColumn" msprop:Generator_UserColumnName="FECHA_DEPOSITO" type="xs:dateTime" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="VDPADEPOSITOS" msprop:Generator_TableClassName="VDPADEPOSITOSDataTable" msprop:Generator_TableVarName="tableVDPADEPOSITOS" msprop:Generator_TablePropName="VDPADEPOSITOS" msprop:Generator_RowDeletingName="VDPADEPOSITOSRowDeleting" msprop:Generator_UserTableName="VDPADEPOSITOS" msprop:Generator_RowChangingName="VDPADEPOSITOSRowChanging" msprop:Generator_RowEvHandlerName="VDPADEPOSITOSRowChangeEventHandler" msprop:Generator_RowDeletedName="VDPADEPOSITOSRowDeleted" msprop:Generator_RowEvArgName="VDPADEPOSITOSRowChangeEvent" msprop:Generator_RowChangedName="VDPADEPOSITOSRowChanged" msprop:Generator_RowClassName="VDPADEPOSITOSRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="TMD_CLAVE" msprop:Generator_ColumnVarNameInTable="columnTMD_CLAVE" msprop:Generator_ColumnPropNameInRow="TMD_CLAVE" msprop:Generator_ColumnPropNameInTable="TMD_CLAVEColumn" msprop:Generator_UserColumnName="TMD_CLAVE" type="xs:decimal" />
+              <xs:element name="TOTAL" msprop:Generator_ColumnVarNameInTable="columnTOTAL" msprop:Generator_ColumnPropNameInRow="TOTAL" msprop:Generator_ColumnPropNameInTable="TOTALColumn" msprop:Generator_UserColumnName="TOTAL" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

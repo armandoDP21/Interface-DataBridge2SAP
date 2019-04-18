@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="CuentasPorCobrar" targetNamespace="http://tempuri.org/CuentasPorCobrar.xsd" xmlns:mstns="http://tempuri.org/CuentasPorCobrar.xsd" xmlns="http://tempuri.org/CuentasPorCobrar.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="CuentasPorCobrar" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="CuentasPorCobrar" msprop:Generator_UserDSName="CuentasPorCobrar">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="CatalogoMovimientosCXC" msprop:Generator_TableClassName="CatalogoMovimientosCXCDataTable" msprop:Generator_TableVarName="tableCatalogoMovimientosCXC" msprop:Generator_TablePropName="CatalogoMovimientosCXC" msprop:Generator_RowDeletingName="CatalogoMovimientosCXCRowDeleting" msprop:Generator_UserTableName="CatalogoMovimientosCXC" msprop:Generator_RowChangingName="CatalogoMovimientosCXCRowChanging" msprop:Generator_RowEvHandlerName="CatalogoMovimientosCXCRowChangeEventHandler" msprop:Generator_RowDeletedName="CatalogoMovimientosCXCRowDeleted" msprop:Generator_RowEvArgName="CatalogoMovimientosCXCRowChangeEvent" msprop:Generator_RowChangedName="CatalogoMovimientosCXCRowChanged" msprop:Generator_RowClassName="CatalogoMovimientosCXCRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="PAIS_CLAVE" msprop:Generator_ColumnVarNameInTable="columnPAIS_CLAVE" msprop:Generator_ColumnPropNameInRow="PAIS_CLAVE" msprop:Generator_ColumnPropNameInTable="PAIS_CLAVEColumn" msprop:Generator_UserColumnName="PAIS_CLAVE" type="xs:string" minOccurs="0" />
+              <xs:element name="SUC_CLAVE" msprop:Generator_ColumnVarNameInTable="columnSUC_CLAVE" msprop:Generator_ColumnPropNameInRow="SUC_CLAVE" msprop:Generator_ColumnPropNameInTable="SUC_CLAVEColumn" msprop:Generator_UserColumnName="SUC_CLAVE" type="xs:string" minOccurs="0" />
+              <xs:element name="DESCRIPCION_MOVIMIENTO" msprop:Generator_ColumnVarNameInTable="columnDESCRIPCION_MOVIMIENTO" msprop:Generator_ColumnPropNameInRow="DESCRIPCION_MOVIMIENTO" msprop:Generator_ColumnPropNameInTable="DESCRIPCION_MOVIMIENTOColumn" msprop:Generator_UserColumnName="DESCRIPCION_MOVIMIENTO" type="xs:string" minOccurs="0" />
+              <xs:element name="MOV_CLAVE" msprop:Generator_ColumnVarNameInTable="columnMOV_CLAVE" msprop:Generator_ColumnPropNameInRow="MOV_CLAVE" msprop:Generator_ColumnPropNameInTable="MOV_CLAVEColumn" msprop:Generator_UserColumnName="MOV_CLAVE" type="xs:long" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="CatalogoMovimientosCXCDetalles" msprop:Generator_TableClassName="CatalogoMovimientosCXCDetallesDataTable" msprop:Generator_TableVarName="tableCatalogoMovimientosCXCDetalles" msprop:Generator_TablePropName="CatalogoMovimientosCXCDetalles" msprop:Generator_RowDeletingName="CatalogoMovimientosCXCDetallesRowDeleting" msprop:Generator_UserTableName="CatalogoMovimientosCXCDetalles" msprop:Generator_RowChangingName="CatalogoMovimientosCXCDetallesRowChanging" msprop:Generator_RowEvHandlerName="CatalogoMovimientosCXCDetallesRowChangeEventHandler" msprop:Generator_RowDeletedName="CatalogoMovimientosCXCDetallesRowDeleted" msprop:Generator_RowEvArgName="CatalogoMovimientosCXCDetallesRowChangeEvent" msprop:Generator_RowChangedName="CatalogoMovimientosCXCDetallesRowChanged" msprop:Generator_RowClassName="CatalogoMovimientosCXCDetallesRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="MOV_CLAVE" msprop:Generator_ColumnVarNameInTable="columnMOV_CLAVE" msprop:Generator_ColumnPropNameInRow="MOV_CLAVE" msprop:Generator_ColumnPropNameInTable="MOV_CLAVEColumn" msprop:Generator_UserColumnName="MOV_CLAVE" type="xs:long" minOccurs="0" />
+              <xs:element name="CUENTADR" msprop:Generator_ColumnVarNameInTable="columnCUENTADR" msprop:Generator_ColumnPropNameInRow="CUENTADR" msprop:Generator_ColumnPropNameInTable="CUENTADRColumn" msprop:Generator_UserColumnName="CUENTADR" type="xs:string" minOccurs="0" />
+              <xs:element name="CUENTACR" msprop:Generator_ColumnVarNameInTable="columnCUENTACR" msprop:Generator_ColumnPropNameInRow="CUENTACR" msprop:Generator_ColumnPropNameInTable="CUENTACRColumn" msprop:Generator_UserColumnName="CUENTACR" type="xs:string" minOccurs="0" />
+              <xs:element name="OPERACION" msprop:Generator_ColumnVarNameInTable="columnOPERACION" msprop:Generator_ColumnPropNameInRow="OPERACION" msprop:Generator_ColumnPropNameInTable="OPERACIONColumn" msprop:Generator_UserColumnName="OPERACION" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

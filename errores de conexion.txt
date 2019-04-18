@@ -1,0 +1,84 @@
+Autenticando: intentos 1
+Usuario Autenticado como 40072630
+SERVER=(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=30.9.131.124)(PORT=1521))(CONNECT_DATA=(SERVICE_NAME=OracleSID))); uid=09064257;pwd=*******;Tue, 28 Jul 2015 23:13:06 GMT. Por Andres Juarez
+Proceso iniciado a Tue, 28 Jul 2015 23:13:06 GMT. Por Andres Juarez
+Tue, 28 Jul 2015 23:13:06 GMT> Proceso: dbp_facturas_arsa_zac de: 17/07/15 a:23/07/15
+Tue, 28 Jul 2015 23:13:06 GMT> Iniciado a
+Tue, 28 Jul 2015 23:13:06 GMT> Ejecución de proceso iniciado...
+Tue, 28 Jul 2015 23:22:29 GMT>  dbp_facturas_arsa_zac terminó satisfactoriamente.
+Tue, 28 Jul 2015 23:22:29 GMT> Duración: 9 minutos, 23 segundos
+...............................................
+Tue, 28 Jul 2015 23:22:29 GMT> Proceso: dbp_facturas_arsa_xel de: 17/07/15 a:23/07/15
+Tue, 28 Jul 2015 23:22:29 GMT> Iniciado a
+Tue, 28 Jul 2015 23:22:29 GMT> Ejecución de proceso iniciado...
+Tue, 28 Jul 2015 23:43:55 GMT>  dbp_facturas_arsa_xel terminó satisfactoriamente.
+Tue, 28 Jul 2015 23:43:55 GMT> Duración: 21 minutos, 26 segundos
+...............................................
+Tue, 28 Jul 2015 23:43:56 GMT> Proceso: dbp_facturas_arsa_jut de: 17/07/15 a:23/07/15
+Tue, 28 Jul 2015 23:43:56 GMT> Iniciado a
+Tue, 28 Jul 2015 23:43:56 GMT> Ejecución de proceso iniciado...
+Tue, 28 Jul 2015 23:44:41 GMT> NO SE EJECUTÓ el proceso: dbp_facturas_arsa_jut
+Tue, 28 Jul 2015 23:44:41 GMT> Solicite información a Soporte de Aplicaciones.
+Tue, 28 Jul 2015 23:44:41 GMT> -2147467259
+Tue, 28 Jul 2015 23:44:41 GMT> Oracle Data Provider for .NET
+Tue, 28 Jul 2015 23:44:41 GMT> ORA-12170: TNS:Connect timeout occurred
+ORA-06512: at "PRODODS.DBP_FACTURAS_ARSA_JUT", line 26
+ORA-06512: at "PRODODS.DBP_FACTURAS_ARSA_JUT", line 98
+ORA-06512: at line 1
+Tue, 28 Jul 2015 23:44:41 GMT> PRODODS.dbp_facturas_arsa_jut
+Tue, 28 Jul 2015 23:44:41 GMT> dbp_facturas_arsa_jut no se ejecutó. Debe procesarla nuevamente.
+...............................................
+Tue, 28 Jul 2015 23:44:41 GMT> Proceso: dbp_facturas_arsa_dts de: 17/07/15 a:23/07/15
+Tue, 28 Jul 2015 23:44:41 GMT> Iniciado a
+Tue, 28 Jul 2015 23:44:41 GMT> Ejecución de proceso iniciado...
+Tue, 28 Jul 2015 23:45:13 GMT>  dbp_facturas_arsa_dts terminó satisfactoriamente.
+Tue, 28 Jul 2015 23:45:13 GMT> Duración: 32 segundos
+...............................................
+Tue, 28 Jul 2015 23:45:13 GMT> Proceso: dbp_facturas_arsa_chi de: 17/07/15 a:23/07/15
+Tue, 28 Jul 2015 23:45:13 GMT> Iniciado a
+Tue, 28 Jul 2015 23:45:13 GMT> Ejecución de proceso iniciado...
+Tue, 28 Jul 2015 23:45:51 GMT> NO SE EJECUTÓ el proceso: dbp_facturas_arsa_chi
+Tue, 28 Jul 2015 23:45:51 GMT> Solicite información a Soporte de Aplicaciones.
+Tue, 28 Jul 2015 23:45:51 GMT> -2147467259
+Tue, 28 Jul 2015 23:45:51 GMT> Oracle Data Provider for .NET
+Tue, 28 Jul 2015 23:45:51 GMT> ORA-12170: TNS:Connect timeout occurred
+ORA-06512: at "PRODODS.DBP_FACTURAS_ARSA_CHI", line 26
+ORA-06512: at "PRODODS.DBP_FACTURAS_ARSA_CHI", line 102
+ORA-06512: at line 1
+Tue, 28 Jul 2015 23:45:51 GMT> PRODODS.dbp_facturas_arsa_chi
+Tue, 28 Jul 2015 23:45:51 GMT> dbp_facturas_arsa_chi no se ejecutó. Debe procesarla nuevamente.
+...............................................
+Tue, 28 Jul 2015 23:45:51 GMT> Proceso: dbp_facturas_arsa_maz de: 17/07/15 a:23/07/15
+Tue, 28 Jul 2015 23:45:51 GMT> Iniciado a
+Tue, 28 Jul 2015 23:45:51 GMT> Ejecución de proceso iniciado...
+Tue, 28 Jul 2015 23:55:15 GMT>  dbp_facturas_arsa_maz terminó satisfactoriamente.
+Tue, 28 Jul 2015 23:55:15 GMT> Duración: 9 minutos, 23 segundos
+...............................................
+Tue, 28 Jul 2015 23:55:15 GMT> Proceso: dbp_facturas_arsa_may de: 17/07/15 a:23/07/15
+Tue, 28 Jul 2015 23:55:15 GMT> Iniciado a
+Tue, 28 Jul 2015 23:55:15 GMT> Ejecución de proceso iniciado...
+Wed, 29 Jul 2015 00:29:56 GMT>  dbp_facturas_arsa_may terminó satisfactoriamente.
+Wed, 29 Jul 2015 00:29:56 GMT> Duración: 0 segundos
+...............................................
+Wed, 29 Jul 2015 00:29:56 GMT> Proceso: dbp_facturas_arsa_Atl de: 17/07/15 a:23/07/15
+Wed, 29 Jul 2015 00:29:56 GMT> Iniciado a
+Wed, 29 Jul 2015 00:29:56 GMT> Ejecución de proceso iniciado...
+Wed, 29 Jul 2015 00:34:02 GMT>  dbp_facturas_arsa_Atl terminó satisfactoriamente.
+Wed, 29 Jul 2015 00:34:02 GMT> Duración: 4 minutos, 6 segundos
+...............................................
+Wed, 29 Jul 2015 00:34:02 GMT> Proceso: dbp_facturas_arsa_esc de: 17/07/15 a:23/07/15
+Wed, 29 Jul 2015 00:34:02 GMT> Iniciado a
+Wed, 29 Jul 2015 00:34:02 GMT> Ejecución de proceso iniciado...
+Wed, 29 Jul 2015 00:34:40 GMT> NO SE EJECUTÓ el proceso: dbp_facturas_arsa_esc
+Wed, 29 Jul 2015 00:34:40 GMT> Solicite información a Soporte de Aplicaciones.
+Wed, 29 Jul 2015 00:34:40 GMT> -2147467259
+Wed, 29 Jul 2015 00:34:40 GMT> Oracle Data Provider for .NET
+Wed, 29 Jul 2015 00:34:40 GMT> ORA-12170: TNS:Connect timeout occurred
+ORA-06512: at "PRODODS.DBP_FACTURAS_ARSA_ESC", line 26
+ORA-06512: at "PRODODS.DBP_FACTURAS_ARSA_ESC", line 102
+ORA-06512: at line 1
+Wed, 29 Jul 2015 00:34:40 GMT> PRODODS.dbp_facturas_arsa_esc
+Wed, 29 Jul 2015 00:34:40 GMT> dbp_facturas_arsa_esc no se ejecutó. Debe procesarla nuevamente.
+...............................................
+Todos los proceso terminaro a  Wed, 29 Jul 2015 00:34:40 GMT. Por Andres Juarez
+Duracion global del proceso:  0 segundos

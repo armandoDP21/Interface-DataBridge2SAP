@@ -1,0 +1,547 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>
+    </SchemaVersion>
+    <ProjectGuid>{5D45F92B-E699-4EF6-8B8D-6B23539D9AEE}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>
+    </RootNamespace>
+    <AssemblyName>Bis.Sap.Common</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>Windows</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Bis.Sap.Common.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Bis.Sap.Common.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>isapmenu_key0.pfx</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Oracle.DataAccess, Version=4.121.2.0, Culture=neutral, PublicKeyToken=89b483f429c47342, processorArchitecture=x86" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Admin\MaestroData.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MaestroData.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\UsuarioData.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>UsuarioData.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Cache\InfoCache.vb" />
+    <Compile Include="Costos\CostosMasterData.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CostosMasterData.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Costos\EmbarquesData.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>EmbarquesData.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Costos\EmbarquesData.vb">
+      <DependentUpon>EmbarquesData.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Costos\GastosData.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>GastosData.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Costos\InterfaseCostos.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>InterfaseCostos.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Costos\InterfaseCostosData.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>InterfaseCostosData.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Data\BitacoraData.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BitacoraData.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Data\CuentasPorCobrar.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CuentasPorCobrar.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Data\CuentasPorCobrar.vb">
+      <DependentUpon>CuentasPorCobrar.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Data\ImpuestosProductoData.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ImpuestosProductoData.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Data\ImpuestosProductoData.vb">
+      <DependentUpon>ImpuestosProductoData.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Data\LiquidacionesData.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LiquidacionesData.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Data\MovimientosDeProductosData.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MovimientosDeProductosData.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Data\MovimientosDeProductosData.vb">
+      <DependentUpon>MovimientosDeProductosData.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Data\ODS_MOVIMIENTOPRODUCTO_SEGREGADO.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ODS_MOVIMIENTOPRODUCTO_SEGREGADO.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Data\ODS_MOVIMIENTOPRODUCTO_SEGREGADO.vb">
+      <DependentUpon>ODS_MOVIMIENTOPRODUCTO_SEGREGADO.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Data\OSDMaestroData.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>OSDMaestroData.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Data\OSDMaestroData.vb">
+      <DependentUpon>OSDMaestroData.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Data\ProcesadasData.Designer.vb">
+      <DependentUpon>ProcesadasData.xsd</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Data\ProcesadasData.vb">
+      <DependentUpon>ProcesadasData.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Data\SAP_GLINTERFASEData.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SAP_GLINTERFASEData.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Data\SAP_GLINTERFASEData.vb">
+      <DependentUpon>SAP_GLINTERFASEData.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Data\UsuariosData.Designer.vb">
+      <DependentUpon>UsuariosData.xsd</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Data\VS_CATALOGOPOLIZASData.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>VS_CATALOGOPOLIZASData.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Data\VS_CATALOGOPOLIZASData.vb">
+      <DependentUpon>VS_CATALOGOPOLIZASData.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="isapmenu\CalendarioData.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CalendarioData.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="isapmenu\GTPolizasCostosData.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>GTPolizasCostosData.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="isapmenu\GTPolizasIngresosData.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>GTPolizasIngresosData.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="isapmenu\RunIsapData1.Designer.vb">
+      <DependentUpon>RunIsapData.xsd</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Menu\MenuData.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MenuData.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\MyExtensions\MyWpfExtension.vb">
+      <VBMyExtensionTemplateID>Microsoft.VisualBasic.WPF.MyExtension</VBMyExtensionTemplateID>
+      <VBMyExtensionTemplateVersion>1.0.0.0</VBMyExtensionTemplateVersion>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Seguridad\LoginForm.Designer.vb">
+      <DependentUpon>LoginForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Seguridad\LoginForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Seguridad\LoginForm.resx">
+      <DependentUpon>LoginForm.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Admin\MaestroData.xsc">
+      <DependentUpon>MaestroData.xsd</DependentUpon>
+    </None>
+    <None Include="Admin\MaestroData.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>MaestroData.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Admin\MaestroData.xss">
+      <DependentUpon>MaestroData.xsd</DependentUpon>
+    </None>
+    <None Include="Admin\UsuarioData.xsc">
+      <DependentUpon>UsuarioData.xsd</DependentUpon>
+    </None>
+    <None Include="Admin\UsuarioData.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>UsuarioData.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Admin\UsuarioData.xss">
+      <DependentUpon>UsuarioData.xsd</DependentUpon>
+    </None>
+    <None Include="app.config">
+      <CustomToolNamespace>Bis.Sap.Common</CustomToolNamespace>
+    </None>
+    <None Include="Costos\CostosMasterData.xsc">
+      <DependentUpon>CostosMasterData.xsd</DependentUpon>
+    </None>
+    <None Include="Costos\CostosMasterData.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CostosMasterData.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Costos\CostosMasterData.xss">
+      <DependentUpon>CostosMasterData.xsd</DependentUpon>
+    </None>
+    <None Include="Costos\EmbarquesData.xsc">
+      <DependentUpon>EmbarquesData.xsd</DependentUpon>
+    </None>
+    <None Include="Costos\EmbarquesData.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>EmbarquesData.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>Bis.Sap.Common</CustomToolNamespace>
+    </None>
+    <None Include="Costos\EmbarquesData.xss">
+      <DependentUpon>EmbarquesData.xsd</DependentUpon>
+    </None>
+    <None Include="Costos\GastosData.xsc">
+      <DependentUpon>GastosData.xsd</DependentUpon>
+    </None>
+    <None Include="Costos\GastosData.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>GastosData.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Costos\GastosData.xss">
+      <DependentUpon>GastosData.xsd</DependentUpon>
+    </None>
+    <None Include="Costos\InterfaseCostos.xsc">
+      <DependentUpon>InterfaseCostos.xsd</DependentUpon>
+    </None>
+    <None Include="Costos\InterfaseCostos.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>InterfaseCostos.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Costos\InterfaseCostos.xss">
+      <DependentUpon>InterfaseCostos.xsd</DependentUpon>
+    </None>
+    <None Include="Costos\InterfaseCostosData.xsc">
+      <DependentUpon>InterfaseCostosData.xsd</DependentUpon>
+    </None>
+    <None Include="Costos\InterfaseCostosData.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>InterfaseCostosData.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Costos\InterfaseCostosData.xss">
+      <DependentUpon>InterfaseCostosData.xsd</DependentUpon>
+    </None>
+    <None Include="Data\BitacoraData.xsc">
+      <DependentUpon>BitacoraData.xsd</DependentUpon>
+    </None>
+    <None Include="Data\BitacoraData.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>BitacoraData.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Data\BitacoraData.xss">
+      <DependentUpon>BitacoraData.xsd</DependentUpon>
+    </None>
+    <None Include="Data\CuentasPorCobrar.xsc">
+      <DependentUpon>CuentasPorCobrar.xsd</DependentUpon>
+    </None>
+    <None Include="Data\CuentasPorCobrar.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CuentasPorCobrar.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Data\CuentasPorCobrar.xss">
+      <DependentUpon>CuentasPorCobrar.xsd</DependentUpon>
+    </None>
+    <None Include="Data\ImpuestosProductoData.xsc">
+      <DependentUpon>ImpuestosProductoData.xsd</DependentUpon>
+    </None>
+    <None Include="Data\ImpuestosProductoData.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ImpuestosProductoData.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Data\ImpuestosProductoData.xss">
+      <DependentUpon>ImpuestosProductoData.xsd</DependentUpon>
+    </None>
+    <None Include="Data\LiquidacionesData.xsc">
+      <DependentUpon>LiquidacionesData.xsd</DependentUpon>
+    </None>
+    <None Include="Data\LiquidacionesData.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>LiquidacionesData.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Data\LiquidacionesData.xss">
+      <DependentUpon>LiquidacionesData.xsd</DependentUpon>
+    </None>
+    <None Include="Data\MovimientosDeProductosData.xsc">
+      <DependentUpon>MovimientosDeProductosData.xsd</DependentUpon>
+    </None>
+    <None Include="Data\MovimientosDeProductosData.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>MovimientosDeProductosData.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Data\MovimientosDeProductosData.xss">
+      <DependentUpon>MovimientosDeProductosData.xsd</DependentUpon>
+    </None>
+    <None Include="Data\ODS_MOVIMIENTOPRODUCTO_SEGREGADO.xsc">
+      <DependentUpon>ODS_MOVIMIENTOPRODUCTO_SEGREGADO.xsd</DependentUpon>
+    </None>
+    <None Include="Data\ODS_MOVIMIENTOPRODUCTO_SEGREGADO.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ODS_MOVIMIENTOPRODUCTO_SEGREGADO.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Data\ODS_MOVIMIENTOPRODUCTO_SEGREGADO.xss">
+      <DependentUpon>ODS_MOVIMIENTOPRODUCTO_SEGREGADO.xsd</DependentUpon>
+    </None>
+    <None Include="Data\OSDMaestroData.xsc">
+      <DependentUpon>OSDMaestroData.xsd</DependentUpon>
+    </None>
+    <None Include="Data\OSDMaestroData.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>OSDMaestroData.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Data\OSDMaestroData.xss">
+      <DependentUpon>OSDMaestroData.xsd</DependentUpon>
+    </None>
+    <None Include="Data\ProcesadasData.xsc">
+      <DependentUpon>ProcesadasData.xsd</DependentUpon>
+    </None>
+    <None Include="Data\ProcesadasData.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ProcesadasData.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Data\ProcesadasData.xss">
+      <DependentUpon>ProcesadasData.xsd</DependentUpon>
+    </None>
+    <None Include="Data\SAP_GLINTERFASEData.xsc">
+      <DependentUpon>SAP_GLINTERFASEData.xsd</DependentUpon>
+    </None>
+    <None Include="Data\SAP_GLINTERFASEData.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SAP_GLINTERFASEData.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Data\SAP_GLINTERFASEData.xss">
+      <DependentUpon>SAP_GLINTERFASEData.xsd</DependentUpon>
+    </None>
+    <None Include="Data\UsuariosData.xsc">
+      <DependentUpon>UsuariosData.xsd</DependentUpon>
+    </None>
+    <None Include="Data\UsuariosData.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>UsuariosData.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>Bis.Sap.Common</CustomToolNamespace>
+    </None>
+    <None Include="Data\UsuariosData.xss">
+      <DependentUpon>UsuariosData.xsd</DependentUpon>
+    </None>
+    <None Include="Data\VS_CATALOGOPOLIZASData.xsc">
+      <DependentUpon>VS_CATALOGOPOLIZASData.xsd</DependentUpon>
+    </None>
+    <None Include="Data\VS_CATALOGOPOLIZASData.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>VS_CATALOGOPOLIZASData.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Data\VS_CATALOGOPOLIZASData.xss">
+      <DependentUpon>VS_CATALOGOPOLIZASData.xsd</DependentUpon>
+    </None>
+    <None Include="isapmenu\CalendarioData.xsc">
+      <DependentUpon>CalendarioData.xsd</DependentUpon>
+    </None>
+    <None Include="isapmenu\CalendarioData.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CalendarioData.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="isapmenu\CalendarioData.xss">
+      <DependentUpon>CalendarioData.xsd</DependentUpon>
+    </None>
+    <None Include="isapmenu\GTPolizasCostosData.xsc">
+      <DependentUpon>GTPolizasCostosData.xsd</DependentUpon>
+    </None>
+    <None Include="isapmenu\GTPolizasCostosData.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>GTPolizasCostosData.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="isapmenu\GTPolizasCostosData.xss">
+      <DependentUpon>GTPolizasCostosData.xsd</DependentUpon>
+    </None>
+    <None Include="isapmenu\GTPolizasIngresosData.xsc">
+      <DependentUpon>GTPolizasIngresosData.xsd</DependentUpon>
+    </None>
+    <None Include="isapmenu\GTPolizasIngresosData.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>GTPolizasIngresosData.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="isapmenu\GTPolizasIngresosData.xss">
+      <DependentUpon>GTPolizasIngresosData.xsd</DependentUpon>
+    </None>
+    <None Include="isapmenu\RunIsapData.xsc">
+      <DependentUpon>RunIsapData.xsd</DependentUpon>
+    </None>
+    <None Include="isapmenu\RunIsapData.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>RunIsapData1.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="isapmenu\RunIsapData.xss">
+      <DependentUpon>RunIsapData.xsd</DependentUpon>
+    </None>
+    <None Include="isapmenu_key0.pfx" />
+    <None Include="Menu\MenuData.xsc">
+      <DependentUpon>MenuData.xsd</DependentUpon>
+    </None>
+    <None Include="Menu\MenuData.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>MenuData.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Menu\MenuData.xss">
+      <DependentUpon>MenuData.xsd</DependentUpon>
+    </None>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Formas\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

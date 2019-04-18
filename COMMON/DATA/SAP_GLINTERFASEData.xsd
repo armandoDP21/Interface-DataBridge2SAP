@@ -1,0 +1,264 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="SAP_GLINTERFASEData" targetNamespace="http://tempuri.org/SAP_GLINTERFASEData.xsd" xmlns:mstns="http://tempuri.org/SAP_GLINTERFASEData.xsd" xmlns="http://tempuri.org/SAP_GLINTERFASEData.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="ConnectionString1" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="ConnectionString1 (MySettings)" ParameterPrefix=":" PropertyReference="ApplicationSettings.My.MySettings.GlobalReference.Default.ConnectionString1" Provider="Oracle.DataAccess.Client" />
+        </Connections>
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="SAP_GLINTERFASEData" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="SAP_GLINTERFASEData" msprop:Generator_UserDSName="SAP_GLINTERFASEData">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="SAP_GL_INTERFASE" msprop:Generator_TableClassName="SAP_GL_INTERFASEDataTable" msprop:Generator_TableVarName="tableSAP_GL_INTERFASE" msprop:Generator_TablePropName="SAP_GL_INTERFASE" msprop:Generator_RowDeletingName="SAP_GL_INTERFASERowDeleting" msprop:Generator_UserTableName="SAP_GL_INTERFASE" msprop:Generator_RowChangingName="SAP_GL_INTERFASERowChanging" msprop:Generator_RowEvHandlerName="SAP_GL_INTERFASERowChangeEventHandler" msprop:Generator_RowDeletedName="SAP_GL_INTERFASERowDeleted" msprop:Generator_RowEvArgName="SAP_GL_INTERFASERowChangeEvent" msprop:Generator_RowChangedName="SAP_GL_INTERFASERowChanged" msprop:Generator_RowClassName="SAP_GL_INTERFASERow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ESTATUS_SAP" msprop:Generator_ColumnVarNameInTable="columnESTATUS_SAP" msprop:Generator_ColumnPropNameInRow="ESTATUS_SAP" msprop:Generator_ColumnPropNameInTable="ESTATUS_SAPColumn" msprop:Generator_UserColumnName="ESTATUS_SAP">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="25" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DOCUMENT_DATE" msprop:Generator_ColumnVarNameInTable="columnDOCUMENT_DATE" msprop:Generator_ColumnPropNameInRow="DOCUMENT_DATE" msprop:Generator_ColumnPropNameInTable="DOCUMENT_DATEColumn" msprop:Generator_UserColumnName="DOCUMENT_DATE" type="xs:dateTime" />
+              <xs:element name="DOCUMENT_TYPE" msprop:Generator_ColumnVarNameInTable="columnDOCUMENT_TYPE" msprop:Generator_ColumnPropNameInRow="DOCUMENT_TYPE" msprop:Generator_ColumnPropNameInTable="DOCUMENT_TYPEColumn" msprop:Generator_UserColumnName="DOCUMENT_TYPE">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="REF_DOCUMENT_NUMBER" msprop:Generator_ColumnVarNameInTable="columnREF_DOCUMENT_NUMBER" msprop:Generator_ColumnPropNameInRow="REF_DOCUMENT_NUMBER" msprop:Generator_ColumnPropNameInTable="REF_DOCUMENT_NUMBERColumn" msprop:Generator_UserColumnName="REF_DOCUMENT_NUMBER">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="16" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DOC_HEADER_TEXT" msprop:Generator_ColumnVarNameInTable="columnDOC_HEADER_TEXT" msprop:Generator_ColumnPropNameInRow="DOC_HEADER_TEXT" msprop:Generator_ColumnPropNameInTable="DOC_HEADER_TEXTColumn" msprop:Generator_UserColumnName="DOC_HEADER_TEXT" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SAP_COMPANY_CODE" msprop:Generator_ColumnVarNameInTable="columnSAP_COMPANY_CODE" msprop:Generator_ColumnPropNameInRow="SAP_COMPANY_CODE" msprop:Generator_ColumnPropNameInTable="SAP_COMPANY_CODEColumn" msprop:Generator_UserColumnName="SAP_COMPANY_CODE">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="4" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SAP_ACCOUNT" msprop:Generator_ColumnVarNameInTable="columnSAP_ACCOUNT" msprop:Generator_ColumnPropNameInRow="SAP_ACCOUNT" msprop:Generator_ColumnPropNameInTable="SAP_ACCOUNTColumn" msprop:Generator_UserColumnName="SAP_ACCOUNT">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="7" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SAP_COST_CENTER" msprop:nullValue="_empty" msprop:Generator_ColumnPropNameInRow="SAP_COST_CENTER" msprop:Generator_ColumnVarNameInTable="columnSAP_COST_CENTER" msprop:Generator_ColumnPropNameInTable="SAP_COST_CENTERColumn" msprop:Generator_UserColumnName="SAP_COST_CENTER" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="7" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SAP_PROFIT_CENTER" msprop:nullValue="_empty" msprop:Generator_ColumnPropNameInRow="SAP_PROFIT_CENTER" msprop:Generator_ColumnVarNameInTable="columnSAP_PROFIT_CENTER" msprop:Generator_ColumnPropNameInTable="SAP_PROFIT_CENTERColumn" msprop:Generator_UserColumnName="SAP_PROFIT_CENTER" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SAP_SEGMENT" msprop:Generator_ColumnVarNameInTable="columnSAP_SEGMENT" msprop:Generator_ColumnPropNameInRow="SAP_SEGMENT" msprop:Generator_ColumnPropNameInTable="SAP_SEGMENTColumn" msprop:Generator_UserColumnName="SAP_SEGMENT" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ENTERED_DR" msprop:Generator_ColumnVarNameInTable="columnENTERED_DR" msprop:Generator_ColumnPropNameInRow="ENTERED_DR" msprop:Generator_ColumnPropNameInTable="ENTERED_DRColumn" msprop:Generator_UserColumnName="ENTERED_DR" type="xs:decimal" minOccurs="0" />
+              <xs:element name="ENTERED_CR" msprop:Generator_ColumnVarNameInTable="columnENTERED_CR" msprop:Generator_ColumnPropNameInRow="ENTERED_CR" msprop:Generator_ColumnPropNameInTable="ENTERED_CRColumn" msprop:Generator_UserColumnName="ENTERED_CR" type="xs:decimal" minOccurs="0" />
+              <xs:element name="ASSIGNMENT" msprop:Generator_ColumnVarNameInTable="columnASSIGNMENT" msprop:Generator_ColumnPropNameInRow="ASSIGNMENT" msprop:Generator_ColumnPropNameInTable="ASSIGNMENTColumn" msprop:Generator_UserColumnName="ASSIGNMENT" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="18" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="LINE_TEXT" msprop:Generator_ColumnVarNameInTable="columnLINE_TEXT" msprop:Generator_ColumnPropNameInRow="LINE_TEXT" msprop:Generator_ColumnPropNameInTable="LINE_TEXTColumn" msprop:Generator_UserColumnName="LINE_TEXT" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SAP_REF_DOC_NUMBER" msprop:Generator_ColumnVarNameInTable="columnSAP_REF_DOC_NUMBER" msprop:Generator_ColumnPropNameInRow="SAP_REF_DOC_NUMBER" msprop:Generator_ColumnPropNameInTable="SAP_REF_DOC_NUMBERColumn" msprop:Generator_UserColumnName="SAP_REF_DOC_NUMBER" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="240" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SAP_REF_MESSAGE" msprop:nullValue="_empty" msprop:Generator_ColumnPropNameInRow="SAP_REF_MESSAGE" msprop:Generator_ColumnVarNameInTable="columnSAP_REF_MESSAGE" msprop:Generator_ColumnPropNameInTable="SAP_REF_MESSAGEColumn" msprop:Generator_UserColumnName="SAP_REF_MESSAGE" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="240" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ACCOUNTING_DATE" msprop:Generator_ColumnVarNameInTable="columnACCOUNTING_DATE" msprop:Generator_ColumnPropNameInRow="ACCOUNTING_DATE" msprop:Generator_ColumnPropNameInTable="ACCOUNTING_DATEColumn" msprop:Generator_UserColumnName="ACCOUNTING_DATE" type="xs:dateTime" />
+              <xs:element name="CURRENCY_CODE" msprop:Generator_ColumnVarNameInTable="columnCURRENCY_CODE" msprop:Generator_ColumnPropNameInRow="CURRENCY_CODE" msprop:Generator_ColumnPropNameInTable="CURRENCY_CODEColumn" msprop:Generator_UserColumnName="CURRENCY_CODE">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="3" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="LEDGER_GROUP" msprop:Generator_ColumnVarNameInTable="columnLEDGER_GROUP" msprop:Generator_ColumnPropNameInRow="LEDGER_GROUP" msprop:Generator_ColumnPropNameInTable="LEDGER_GROUPColumn" msprop:Generator_UserColumnName="LEDGER_GROUP" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SAP_TAX_INDICATOR" msprop:Generator_ColumnVarNameInTable="columnSAP_TAX_INDICATOR" msprop:Generator_ColumnPropNameInRow="SAP_TAX_INDICATOR" msprop:Generator_ColumnPropNameInTable="SAP_TAX_INDICATORColumn" msprop:Generator_UserColumnName="SAP_TAX_INDICATOR" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="SAP_GL_TEMP" msprop:Generator_TableClassName="SAP_GL_TEMPDataTable" msprop:Generator_TableVarName="tableSAP_GL_TEMP" msprop:Generator_TablePropName="SAP_GL_TEMP" msprop:Generator_RowDeletingName="SAP_GL_TEMPRowDeleting" msprop:Generator_UserTableName="SAP_GL_TEMP" msprop:Generator_RowChangingName="SAP_GL_TEMPRowChanging" msprop:Generator_RowEvHandlerName="SAP_GL_TEMPRowChangeEventHandler" msprop:Generator_RowDeletedName="SAP_GL_TEMPRowDeleted" msprop:Generator_RowEvArgName="SAP_GL_TEMPRowChangeEvent" msprop:Generator_RowChangedName="SAP_GL_TEMPRowChanged" msprop:Generator_RowClassName="SAP_GL_TEMPRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ESTATUS_SAP" msprop:Generator_ColumnVarNameInTable="columnESTATUS_SAP" msprop:Generator_ColumnPropNameInRow="ESTATUS_SAP" msprop:Generator_ColumnPropNameInTable="ESTATUS_SAPColumn" msprop:Generator_UserColumnName="ESTATUS_SAP">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="25" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DOCUMENT_DATE" msprop:Generator_ColumnVarNameInTable="columnDOCUMENT_DATE" msprop:Generator_ColumnPropNameInRow="DOCUMENT_DATE" msprop:Generator_ColumnPropNameInTable="DOCUMENT_DATEColumn" msprop:Generator_UserColumnName="DOCUMENT_DATE" type="xs:dateTime" />
+              <xs:element name="DOCUMENT_TYPE" msprop:Generator_ColumnVarNameInTable="columnDOCUMENT_TYPE" msprop:Generator_ColumnPropNameInRow="DOCUMENT_TYPE" msprop:Generator_ColumnPropNameInTable="DOCUMENT_TYPEColumn" msprop:Generator_UserColumnName="DOCUMENT_TYPE">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="REF_DOCUMENT_NUMBER" msprop:Generator_ColumnVarNameInTable="columnREF_DOCUMENT_NUMBER" msprop:Generator_ColumnPropNameInRow="REF_DOCUMENT_NUMBER" msprop:Generator_ColumnPropNameInTable="REF_DOCUMENT_NUMBERColumn" msprop:Generator_UserColumnName="REF_DOCUMENT_NUMBER">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="16" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DOC_HEADER_TEXT" msprop:Generator_ColumnVarNameInTable="columnDOC_HEADER_TEXT" msprop:Generator_ColumnPropNameInRow="DOC_HEADER_TEXT" msprop:Generator_ColumnPropNameInTable="DOC_HEADER_TEXTColumn" msprop:Generator_UserColumnName="DOC_HEADER_TEXT" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SAP_COMPANY_CODE" msprop:Generator_ColumnVarNameInTable="columnSAP_COMPANY_CODE" msprop:Generator_ColumnPropNameInRow="SAP_COMPANY_CODE" msprop:Generator_ColumnPropNameInTable="SAP_COMPANY_CODEColumn" msprop:Generator_UserColumnName="SAP_COMPANY_CODE">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="4" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SAP_ACCOUNT" msprop:Generator_ColumnVarNameInTable="columnSAP_ACCOUNT" msprop:Generator_ColumnPropNameInRow="SAP_ACCOUNT" msprop:Generator_ColumnPropNameInTable="SAP_ACCOUNTColumn" msprop:Generator_UserColumnName="SAP_ACCOUNT">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="7" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SAP_COST_CENTER" msprop:Generator_ColumnVarNameInTable="columnSAP_COST_CENTER" msprop:Generator_ColumnPropNameInRow="SAP_COST_CENTER" msprop:Generator_ColumnPropNameInTable="SAP_COST_CENTERColumn" msprop:Generator_UserColumnName="SAP_COST_CENTER" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="7" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SAP_PROFIT_CENTER" msprop:Generator_ColumnVarNameInTable="columnSAP_PROFIT_CENTER" msprop:Generator_ColumnPropNameInRow="SAP_PROFIT_CENTER" msprop:Generator_ColumnPropNameInTable="SAP_PROFIT_CENTERColumn" msprop:Generator_UserColumnName="SAP_PROFIT_CENTER" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SAP_SEGMENT" msprop:Generator_ColumnVarNameInTable="columnSAP_SEGMENT" msprop:Generator_ColumnPropNameInRow="SAP_SEGMENT" msprop:Generator_ColumnPropNameInTable="SAP_SEGMENTColumn" msprop:Generator_UserColumnName="SAP_SEGMENT" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ENTERED_DR" msprop:Generator_ColumnVarNameInTable="columnENTERED_DR" msprop:Generator_ColumnPropNameInRow="ENTERED_DR" msprop:Generator_ColumnPropNameInTable="ENTERED_DRColumn" msprop:Generator_UserColumnName="ENTERED_DR" type="xs:decimal" minOccurs="0" />
+              <xs:element name="ENTERED_CR" msprop:Generator_ColumnVarNameInTable="columnENTERED_CR" msprop:Generator_ColumnPropNameInRow="ENTERED_CR" msprop:Generator_ColumnPropNameInTable="ENTERED_CRColumn" msprop:Generator_UserColumnName="ENTERED_CR" type="xs:decimal" minOccurs="0" />
+              <xs:element name="ASSIGNMENT" msprop:Generator_ColumnVarNameInTable="columnASSIGNMENT" msprop:Generator_ColumnPropNameInRow="ASSIGNMENT" msprop:Generator_ColumnPropNameInTable="ASSIGNMENTColumn" msprop:Generator_UserColumnName="ASSIGNMENT" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="18" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="LINE_TEXT" msprop:Generator_ColumnVarNameInTable="columnLINE_TEXT" msprop:Generator_ColumnPropNameInRow="LINE_TEXT" msprop:Generator_ColumnPropNameInTable="LINE_TEXTColumn" msprop:Generator_UserColumnName="LINE_TEXT" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SAP_REF_DOC_NUMBER" msprop:Generator_ColumnVarNameInTable="columnSAP_REF_DOC_NUMBER" msprop:Generator_ColumnPropNameInRow="SAP_REF_DOC_NUMBER" msprop:Generator_ColumnPropNameInTable="SAP_REF_DOC_NUMBERColumn" msprop:Generator_UserColumnName="SAP_REF_DOC_NUMBER" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="240" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SAP_REF_MESSAGE" msprop:Generator_ColumnVarNameInTable="columnSAP_REF_MESSAGE" msprop:Generator_ColumnPropNameInRow="SAP_REF_MESSAGE" msprop:Generator_ColumnPropNameInTable="SAP_REF_MESSAGEColumn" msprop:Generator_UserColumnName="SAP_REF_MESSAGE" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="240" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ACCOUNTING_DATE" msprop:Generator_ColumnVarNameInTable="columnACCOUNTING_DATE" msprop:Generator_ColumnPropNameInRow="ACCOUNTING_DATE" msprop:Generator_ColumnPropNameInTable="ACCOUNTING_DATEColumn" msprop:Generator_UserColumnName="ACCOUNTING_DATE" type="xs:dateTime" />
+              <xs:element name="CURRENCY_CODE" msprop:Generator_ColumnVarNameInTable="columnCURRENCY_CODE" msprop:Generator_ColumnPropNameInRow="CURRENCY_CODE" msprop:Generator_ColumnPropNameInTable="CURRENCY_CODEColumn" msprop:Generator_UserColumnName="CURRENCY_CODE">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="3" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="LEDGER_GROUP" msprop:Generator_ColumnVarNameInTable="columnLEDGER_GROUP" msprop:Generator_ColumnPropNameInRow="LEDGER_GROUP" msprop:Generator_ColumnPropNameInTable="LEDGER_GROUPColumn" msprop:Generator_UserColumnName="LEDGER_GROUP" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SAP_TAX_INDICATOR" msprop:Generator_ColumnVarNameInTable="columnSAP_TAX_INDICATOR" msprop:Generator_ColumnPropNameInRow="SAP_TAX_INDICATOR" msprop:Generator_ColumnPropNameInTable="SAP_TAX_INDICATORColumn" msprop:Generator_UserColumnName="SAP_TAX_INDICATOR" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

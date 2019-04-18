@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="CalendarioData" targetNamespace="http://tempuri.org/CalendarioData.xsd" xmlns:mstns="http://tempuri.org/CalendarioData.xsd" xmlns="http://tempuri.org/CalendarioData.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="ConnectionString1" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="ConnectionString1 (MySettings)" ParameterPrefix=":" PropertyReference="ApplicationSettings.My.MySettings.GlobalReference.Default.ConnectionString1" Provider="Oracle.DataAccess.Client" />
+        </Connections>
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="CalendarioData" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="CalendarioData" msprop:Generator_UserDSName="CalendarioData">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="CALENDARIO_PAIS" msprop:Generator_TableClassName="CALENDARIO_PAISDataTable" msprop:Generator_TableVarName="tableCALENDARIO_PAIS" msprop:Generator_TablePropName="CALENDARIO_PAIS" msprop:Generator_RowDeletingName="CALENDARIO_PAISRowDeleting" msprop:Generator_UserTableName="CALENDARIO_PAIS" msprop:Generator_RowChangingName="CALENDARIO_PAISRowChanging" msprop:Generator_RowEvHandlerName="CALENDARIO_PAISRowChangeEventHandler" msprop:Generator_RowDeletedName="CALENDARIO_PAISRowDeleted" msprop:Generator_RowEvArgName="CALENDARIO_PAISRowChangeEvent" msprop:Generator_RowChangedName="CALENDARIO_PAISRowChanged" msprop:Generator_RowClassName="CALENDARIO_PAISRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="CFE_EJERCICIO" msprop:Generator_ColumnVarNameInTable="columnCFE_EJERCICIO" msprop:Generator_ColumnPropNameInRow="CFE_EJERCICIO" msprop:Generator_ColumnPropNameInTable="CFE_EJERCICIOColumn" msprop:Generator_UserColumnName="CFE_EJERCICIO" type="xs:decimal" minOccurs="0" />
+              <xs:element name="CFE_FECHA" msprop:Generator_ColumnVarNameInTable="columnCFE_FECHA" msprop:Generator_ColumnPropNameInRow="CFE_FECHA" msprop:Generator_ColumnPropNameInTable="CFE_FECHAColumn" msprop:Generator_UserColumnName="CFE_FECHA" type="xs:dateTime" />
+              <xs:element name="CFE_PERIODO" msprop:Generator_ColumnVarNameInTable="columnCFE_PERIODO" msprop:Generator_ColumnPropNameInRow="CFE_PERIODO" msprop:Generator_ColumnPropNameInTable="CFE_PERIODOColumn" msprop:Generator_UserColumnName="CFE_PERIODO" type="xs:decimal" minOccurs="0" />
+              <xs:element name="CFE_SEMANA" msprop:Generator_ColumnVarNameInTable="columnCFE_SEMANA" msprop:Generator_ColumnPropNameInRow="CFE_SEMANA" msprop:Generator_ColumnPropNameInTable="CFE_SEMANAColumn" msprop:Generator_UserColumnName="CFE_SEMANA" type="xs:decimal" minOccurs="0" />
+              <xs:element name="CFE_DIA" msprop:Generator_ColumnVarNameInTable="columnCFE_DIA" msprop:Generator_ColumnPropNameInRow="CFE_DIA" msprop:Generator_ColumnPropNameInTable="CFE_DIAColumn" msprop:Generator_UserColumnName="CFE_DIA" type="xs:decimal" minOccurs="0" />
+              <xs:element name="CDI_NUMERO" msprop:Generator_ColumnVarNameInTable="columnCDI_NUMERO" msprop:Generator_ColumnPropNameInRow="CDI_NUMERO" msprop:Generator_ColumnPropNameInTable="CDI_NUMEROColumn" msprop:Generator_UserColumnName="CDI_NUMERO" type="xs:decimal" minOccurs="0" />
+              <xs:element name="CFE_CIERRE" msprop:Generator_ColumnVarNameInTable="columnCFE_CIERRE" msprop:Generator_ColumnPropNameInRow="CFE_CIERRE" msprop:Generator_ColumnPropNameInTable="CFE_CIERREColumn" msprop:Generator_UserColumnName="CFE_CIERRE" type="xs:decimal" minOccurs="0" />
+              <xs:element name="APS" msprop:Generator_ColumnVarNameInTable="columnAPS" msprop:Generator_ColumnPropNameInRow="APS" msprop:Generator_ColumnPropNameInTable="APSColumn" msprop:Generator_UserColumnName="APS" type="xs:string" minOccurs="0" />
+              <xs:element name="PAIS_CLAVE" msprop:Generator_ColumnVarNameInTable="columnPAIS_CLAVE" msprop:Generator_ColumnPropNameInRow="PAIS_CLAVE" msprop:Generator_ColumnPropNameInTable="PAIS_CLAVEColumn" msprop:Generator_UserColumnName="PAIS_CLAVE" type="xs:decimal" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="GastosData" targetNamespace="http://tempuri.org/GastosData.xsd" xmlns:mstns="http://tempuri.org/GastosData.xsd" xmlns="http://tempuri.org/GastosData.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="ConnectionString1" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="ConnectionString1 (MySettings)" ParameterPrefix=":" PropertyReference="ApplicationSettings.My.MySettings.GlobalReference.Default.ConnectionString1" Provider="Oracle.DataAccess.Client" />
+        </Connections>
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="GastosData" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="GastosData" msprop:Generator_UserDSName="GastosData">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="VSC_EMBARQUESGL" msprop:Generator_TableClassName="VSC_EMBARQUESGLDataTable" msprop:Generator_TableVarName="tableVSC_EMBARQUESGL" msprop:Generator_TablePropName="VSC_EMBARQUESGL" msprop:Generator_RowDeletingName="VSC_EMBARQUESGLRowDeleting" msprop:Generator_UserTableName="VSC_EMBARQUESGL" msprop:Generator_RowChangingName="VSC_EMBARQUESGLRowChanging" msprop:Generator_RowEvHandlerName="VSC_EMBARQUESGLRowChangeEventHandler" msprop:Generator_RowDeletedName="VSC_EMBARQUESGLRowDeleted" msprop:Generator_RowEvArgName="VSC_EMBARQUESGLRowChangeEvent" msprop:Generator_RowChangedName="VSC_EMBARQUESGLRowChanged" msprop:Generator_RowClassName="VSC_EMBARQUESGLRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="EMBARQUE_CLAVE" msprop:Generator_ColumnVarNameInTable="columnEMBARQUE_CLAVE" msprop:Generator_ColumnPropNameInRow="EMBARQUE_CLAVE" msprop:Generator_ColumnPropNameInTable="EMBARQUE_CLAVEColumn" msprop:Generator_UserColumnName="EMBARQUE_CLAVE">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="35" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="GL_CLAVE" msprop:Generator_ColumnVarNameInTable="columnGL_CLAVE" msprop:Generator_ColumnPropNameInRow="GL_CLAVE" msprop:Generator_ColumnPropNameInTable="GL_CLAVEColumn" msprop:Generator_UserColumnName="GL_CLAVE" type="xs:decimal" />
+              <xs:element name="MONTO" msprop:Generator_ColumnVarNameInTable="columnMONTO" msprop:Generator_ColumnPropNameInRow="MONTO" msprop:Generator_ColumnPropNameInTable="MONTOColumn" msprop:Generator_UserColumnName="MONTO" type="xs:decimal" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="VSC_EMBARQUESGV" msprop:Generator_TableClassName="VSC_EMBARQUESGVDataTable" msprop:Generator_TableVarName="tableVSC_EMBARQUESGV" msprop:Generator_TablePropName="VSC_EMBARQUESGV" msprop:Generator_RowDeletingName="VSC_EMBARQUESGVRowDeleting" msprop:Generator_UserTableName="VSC_EMBARQUESGV" msprop:Generator_RowChangingName="VSC_EMBARQUESGVRowChanging" msprop:Generator_RowEvHandlerName="VSC_EMBARQUESGVRowChangeEventHandler" msprop:Generator_RowDeletedName="VSC_EMBARQUESGVRowDeleted" msprop:Generator_RowEvArgName="VSC_EMBARQUESGVRowChangeEvent" msprop:Generator_RowChangedName="VSC_EMBARQUESGVRowChanged" msprop:Generator_RowClassName="VSC_EMBARQUESGVRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="EMBARQUE_CLAVE" msprop:Generator_ColumnVarNameInTable="columnEMBARQUE_CLAVE" msprop:Generator_ColumnPropNameInRow="EMBARQUE_CLAVE" msprop:Generator_ColumnPropNameInTable="EMBARQUE_CLAVEColumn" msprop:Generator_UserColumnName="EMBARQUE_CLAVE">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="35" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="GV_CLAVE" msprop:Generator_ColumnVarNameInTable="columnGV_CLAVE" msprop:Generator_ColumnPropNameInRow="GV_CLAVE" msprop:Generator_ColumnPropNameInTable="GV_CLAVEColumn" msprop:Generator_UserColumnName="GV_CLAVE" type="xs:decimal" />
+              <xs:element name="MONTO" msprop:Generator_ColumnVarNameInTable="columnMONTO" msprop:Generator_ColumnPropNameInRow="MONTO" msprop:Generator_ColumnPropNameInTable="MONTOColumn" msprop:Generator_UserColumnName="MONTO" type="xs:decimal" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

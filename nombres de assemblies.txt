@@ -1,0 +1,5 @@
+BIS.Isap.Common
+BIS.Isap.DataAccess
+BIS.Isap.Rules
+BIS.Isap.Facade
+

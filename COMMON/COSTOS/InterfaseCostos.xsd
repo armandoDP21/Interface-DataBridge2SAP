@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="InterfaseCostos" targetNamespace="http://tempuri.org/InterfaseCostos.xsd" xmlns:mstns="http://tempuri.org/InterfaseCostos.xsd" xmlns="http://tempuri.org/InterfaseCostos.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="ConnectionString1" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="ConnectionString1 (MySettings)" ParameterPrefix=":" PropertyReference="ApplicationSettings.My.MySettings.GlobalReference.Default.ConnectionString1" Provider="Oracle.DataAccess.Client" />
+        </Connections>
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="InterfaseCostos" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="InterfaseCostos" msprop:Generator_UserDSName="InterfaseCostos">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="INTERFASESCOSTOS" msprop:Generator_TableClassName="INTERFASESCOSTOSDataTable" msprop:Generator_TableVarName="tableINTERFASESCOSTOS" msprop:Generator_TablePropName="INTERFASESCOSTOS" msprop:Generator_RowDeletingName="INTERFASESCOSTOSRowDeleting" msprop:Generator_UserTableName="INTERFASESCOSTOS" msprop:Generator_RowChangingName="INTERFASESCOSTOSRowChanging" msprop:Generator_RowEvHandlerName="INTERFASESCOSTOSRowChangeEventHandler" msprop:Generator_RowDeletedName="INTERFASESCOSTOSRowDeleted" msprop:Generator_RowEvArgName="INTERFASESCOSTOSRowChangeEvent" msprop:Generator_RowChangedName="INTERFASESCOSTOSRowChanged" msprop:Generator_RowClassName="INTERFASESCOSTOSRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="SAP_PERIOD" msprop:Generator_ColumnVarNameInTable="columnSAP_PERIOD" msprop:Generator_ColumnPropNameInRow="SAP_PERIOD" msprop:Generator_ColumnPropNameInTable="SAP_PERIODColumn" msprop:Generator_UserColumnName="SAP_PERIOD">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="3" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SAP_FISCAL_YEAR" msprop:Generator_ColumnVarNameInTable="columnSAP_FISCAL_YEAR" msprop:Generator_ColumnPropNameInRow="SAP_FISCAL_YEAR" msprop:Generator_ColumnPropNameInTable="SAP_FISCAL_YEARColumn" msprop:Generator_UserColumnName="SAP_FISCAL_YEAR" type="xs:decimal" />
+              <xs:element name="SAP_ACTUAL_COST" msprop:Generator_ColumnVarNameInTable="columnSAP_ACTUAL_COST" msprop:Generator_ColumnPropNameInRow="SAP_ACTUAL_COST" msprop:Generator_ColumnPropNameInTable="SAP_ACTUAL_COSTColumn" msprop:Generator_UserColumnName="SAP_ACTUAL_COST" type="xs:double" minOccurs="0" />
+              <xs:element name="SAP_PREVIOUS_COST" msprop:Generator_ColumnVarNameInTable="columnSAP_PREVIOUS_COST" msprop:Generator_ColumnPropNameInRow="SAP_PREVIOUS_COST" msprop:Generator_ColumnPropNameInTable="SAP_PREVIOUS_COSTColumn" msprop:Generator_UserColumnName="SAP_PREVIOUS_COST" type="xs:double" minOccurs="0" />
+              <xs:element name="SAP_COST_DIFFERENCES" msprop:Generator_ColumnVarNameInTable="columnSAP_COST_DIFFERENCES" msprop:Generator_ColumnPropNameInRow="SAP_COST_DIFFERENCES" msprop:Generator_ColumnPropNameInTable="SAP_COST_DIFFERENCESColumn" msprop:Generator_UserColumnName="SAP_COST_DIFFERENCES" type="xs:double" minOccurs="0" />
+              <xs:element name="SAP_ID_MATERIAL" msprop:Generator_ColumnVarNameInTable="columnSAP_ID_MATERIAL" msprop:Generator_ColumnPropNameInRow="SAP_ID_MATERIAL" msprop:Generator_ColumnPropNameInTable="SAP_ID_MATERIALColumn" msprop:Generator_UserColumnName="SAP_ID_MATERIAL" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="18" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SAP_TEXTO_MATERIAL" msprop:Generator_ColumnVarNameInTable="columnSAP_TEXTO_MATERIAL" msprop:Generator_ColumnPropNameInRow="SAP_TEXTO_MATERIAL" msprop:Generator_ColumnPropNameInTable="SAP_TEXTO_MATERIALColumn" msprop:Generator_UserColumnName="SAP_TEXTO_MATERIAL" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SAP_UOM_BASE" msprop:Generator_ColumnVarNameInTable="columnSAP_UOM_BASE" msprop:Generator_ColumnPropNameInRow="SAP_UOM_BASE" msprop:Generator_ColumnPropNameInTable="SAP_UOM_BASEColumn" msprop:Generator_UserColumnName="SAP_UOM_BASE" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="4" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SAP_CURRENCY" msprop:Generator_ColumnVarNameInTable="columnSAP_CURRENCY" msprop:Generator_ColumnPropNameInRow="SAP_CURRENCY" msprop:Generator_ColumnPropNameInTable="SAP_CURRENCYColumn" msprop:Generator_UserColumnName="SAP_CURRENCY" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="5" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SAP_ID_COMPANIA" msprop:Generator_ColumnVarNameInTable="columnSAP_ID_COMPANIA" msprop:Generator_ColumnPropNameInRow="SAP_ID_COMPANIA" msprop:Generator_ColumnPropNameInTable="SAP_ID_COMPANIAColumn" msprop:Generator_UserColumnName="SAP_ID_COMPANIA">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="4" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SAP_PLANTA" msprop:Generator_ColumnVarNameInTable="columnSAP_PLANTA" msprop:Generator_ColumnPropNameInRow="SAP_PLANTA" msprop:Generator_ColumnPropNameInTable="SAP_PLANTAColumn" msprop:Generator_UserColumnName="SAP_PLANTA" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="4" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="TIPO_DE_PRODUCTO" msprop:Generator_ColumnVarNameInTable="columnTIPO_DE_PRODUCTO" msprop:Generator_ColumnPropNameInRow="TIPO_DE_PRODUCTO" msprop:Generator_ColumnPropNameInTable="TIPO_DE_PRODUCTOColumn" msprop:Generator_UserColumnName="TIPO_DE_PRODUCTO" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="COSTO_FLETE_POR_UNIDAD" msprop:Generator_ColumnVarNameInTable="columnCOSTO_FLETE_POR_UNIDAD" msprop:Generator_ColumnPropNameInRow="COSTO_FLETE_POR_UNIDAD" msprop:Generator_ColumnPropNameInTable="COSTO_FLETE_POR_UNIDADColumn" msprop:Generator_UserColumnName="COSTO_FLETE_POR_UNIDAD" type="xs:decimal" minOccurs="0" />
+              <xs:element name="COSTO_ADUANAL_POR_UNIDAD" msprop:Generator_ColumnVarNameInTable="columnCOSTO_ADUANAL_POR_UNIDAD" msprop:Generator_ColumnPropNameInRow="COSTO_ADUANAL_POR_UNIDAD" msprop:Generator_ColumnPropNameInTable="COSTO_ADUANAL_POR_UNIDADColumn" msprop:Generator_UserColumnName="COSTO_ADUANAL_POR_UNIDAD" type="xs:decimal" minOccurs="0" />
+              <xs:element name="TOTAL_COSTO_PRODUCT0" msprop:Generator_ColumnVarNameInTable="columnTOTAL_COSTO_PRODUCT0" msprop:Generator_ColumnPropNameInRow="TOTAL_COSTO_PRODUCT0" msprop:Generator_ColumnPropNameInTable="TOTAL_COSTO_PRODUCT0Column" msprop:Generator_UserColumnName="TOTAL_COSTO_PRODUCT0" type="xs:decimal" minOccurs="0" />
+              <xs:element name="SAP_NUM_MATERIAL_LEGADO" msprop:Generator_ColumnVarNameInTable="columnSAP_NUM_MATERIAL_LEGADO" msprop:Generator_ColumnPropNameInRow="SAP_NUM_MATERIAL_LEGADO" msprop:Generator_ColumnPropNameInTable="SAP_NUM_MATERIAL_LEGADOColumn" msprop:Generator_UserColumnName="SAP_NUM_MATERIAL_LEGADO">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="18" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SAP_ID_SISTEMA_LEGADO" msprop:Generator_ColumnVarNameInTable="columnSAP_ID_SISTEMA_LEGADO" msprop:Generator_ColumnPropNameInRow="SAP_ID_SISTEMA_LEGADO" msprop:Generator_ColumnPropNameInTable="SAP_ID_SISTEMA_LEGADOColumn" msprop:Generator_UserColumnName="SAP_ID_SISTEMA_LEGADO">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="15" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="COSTOSANTERIOR" msprop:Generator_TableClassName="COSTOSANTERIORDataTable" msprop:Generator_TableVarName="tableCOSTOSANTERIOR" msprop:Generator_TablePropName="COSTOSANTERIOR" msprop:Generator_RowDeletingName="COSTOSANTERIORRowDeleting" msprop:Generator_UserTableName="COSTOSANTERIOR" msprop:Generator_RowChangingName="COSTOSANTERIORRowChanging" msprop:Generator_RowEvHandlerName="COSTOSANTERIORRowChangeEventHandler" msprop:Generator_RowDeletedName="COSTOSANTERIORRowDeleted" msprop:Generator_RowEvArgName="COSTOSANTERIORRowChangeEvent" msprop:Generator_RowChangedName="COSTOSANTERIORRowChanged" msprop:Generator_RowClassName="COSTOSANTERIORRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="SAP_ID_MATERIAL" msprop:Generator_ColumnVarNameInTable="columnSAP_ID_MATERIAL" msprop:Generator_ColumnPropNameInRow="SAP_ID_MATERIAL" msprop:Generator_ColumnPropNameInTable="SAP_ID_MATERIALColumn" msprop:Generator_UserColumnName="SAP_ID_MATERIAL" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="18" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SAP_NUM_MATERIAL_LEGADO" msprop:Generator_ColumnVarNameInTable="columnSAP_NUM_MATERIAL_LEGADO" msprop:Generator_ColumnPropNameInRow="SAP_NUM_MATERIAL_LEGADO" msprop:Generator_ColumnPropNameInTable="SAP_NUM_MATERIAL_LEGADOColumn" msprop:Generator_UserColumnName="SAP_NUM_MATERIAL_LEGADO">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="18" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SAP_ACTUAL_COST" msprop:Generator_ColumnVarNameInTable="columnSAP_ACTUAL_COST" msprop:Generator_ColumnPropNameInRow="SAP_ACTUAL_COST" msprop:Generator_ColumnPropNameInTable="SAP_ACTUAL_COSTColumn" msprop:Generator_UserColumnName="SAP_ACTUAL_COST" type="xs:double" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="COSTOPROMEDIO" msprop:Generator_TableClassName="COSTOPROMEDIODataTable" msprop:Generator_TableVarName="tableCOSTOPROMEDIO" msprop:Generator_TablePropName="COSTOPROMEDIO" msprop:Generator_RowDeletingName="COSTOPROMEDIORowDeleting" msprop:Generator_UserTableName="COSTOPROMEDIO" msprop:Generator_RowChangingName="COSTOPROMEDIORowChanging" msprop:Generator_RowEvHandlerName="COSTOPROMEDIORowChangeEventHandler" msprop:Generator_RowDeletedName="COSTOPROMEDIORowDeleted" msprop:Generator_RowEvArgName="COSTOPROMEDIORowChangeEvent" msprop:Generator_RowChangedName="COSTOPROMEDIORowChanged" msprop:Generator_RowClassName="COSTOPROMEDIORow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="PRO_CLAVE" msprop:Generator_ColumnVarNameInTable="columnPRO_CLAVE" msprop:Generator_ColumnPropNameInRow="PRO_CLAVE" msprop:Generator_ColumnPropNameInTable="PRO_CLAVEColumn" msprop:Generator_UserColumnName="PRO_CLAVE">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CANTIDAD" msprop:Generator_ColumnVarNameInTable="columnCANTIDAD" msprop:Generator_ColumnPropNameInRow="CANTIDAD" msprop:Generator_ColumnPropNameInTable="CANTIDADColumn" msprop:Generator_UserColumnName="CANTIDAD" type="xs:decimal" minOccurs="0" />
+              <xs:element name="ML" msprop:Generator_ColumnVarNameInTable="columnML" msprop:Generator_ColumnPropNameInRow="ML" msprop:Generator_ColumnPropNameInTable="MLColumn" msprop:Generator_UserColumnName="ML" type="xs:decimal" minOccurs="0" />
+              <xs:element name="M_x0024_" msprop:Generator_ColumnVarNameInTable="_columnM_" msprop:Generator_ColumnPropNameInRow="_M_" msprop:Generator_ColumnPropNameInTable="_M_Column" msprop:Generator_UserColumnName="M$" type="xs:decimal" minOccurs="0" />
+              <xs:element name="ARANCEL" msprop:Generator_ColumnVarNameInTable="columnARANCEL" msprop:Generator_ColumnPropNameInRow="ARANCEL" msprop:Generator_ColumnPropNameInTable="ARANCELColumn" msprop:Generator_UserColumnName="ARANCEL" type="xs:decimal" minOccurs="0" />
+              <xs:element name="FLETE" msprop:Generator_ColumnVarNameInTable="columnFLETE" msprop:Generator_ColumnPropNameInRow="FLETE" msprop:Generator_ColumnPropNameInTable="FLETEColumn" msprop:Generator_UserColumnName="FLETE" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

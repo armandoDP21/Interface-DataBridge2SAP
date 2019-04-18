@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="RunIsapData" targetNamespace="http://tempuri.org/RunIsapData.xsd" xmlns:mstns="http://tempuri.org/RunIsapData.xsd" xmlns="http://tempuri.org/RunIsapData.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="ConnectionString1" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="ConnectionString1 (MySettings)" ParameterPrefix=":" PropertyReference="ApplicationSettings.My.MySettings.GlobalReference.Default.ConnectionString1" Provider="Oracle.DataAccess.Client" />
+        </Connections>
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="RunIsapData" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="RunIsapData" msprop:Generator_UserDSName="RunIsapData">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="VSI_PROCESOS" msprop:Generator_TableClassName="VSI_PROCESOSDataTable" msprop:Generator_TableVarName="tableVSI_PROCESOS" msprop:Generator_TablePropName="VSI_PROCESOS" msprop:Generator_RowDeletingName="VSI_PROCESOSRowDeleting" msprop:Generator_UserTableName="VSI_PROCESOS" msprop:Generator_RowChangingName="VSI_PROCESOSRowChanging" msprop:Generator_RowEvHandlerName="VSI_PROCESOSRowChangeEventHandler" msprop:Generator_RowDeletedName="VSI_PROCESOSRowDeleted" msprop:Generator_RowEvArgName="VSI_PROCESOSRowChangeEvent" msprop:Generator_RowChangedName="VSI_PROCESOSRowChanged" msprop:Generator_RowClassName="VSI_PROCESOSRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="USERNAME" msprop:Generator_ColumnVarNameInTable="columnUSERNAME" msprop:Generator_ColumnPropNameInRow="USERNAME" msprop:Generator_ColumnPropNameInTable="USERNAMEColumn" msprop:Generator_UserColumnName="USERNAME">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="256" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SUC_CLAVE" msprop:Generator_ColumnVarNameInTable="columnSUC_CLAVE" msprop:Generator_ColumnPropNameInRow="SUC_CLAVE" msprop:Generator_ColumnPropNameInTable="SUC_CLAVEColumn" msprop:Generator_UserColumnName="SUC_CLAVE" type="xs:decimal" />
+              <xs:element name="PROCEDURE_NAME" msprop:Generator_ColumnVarNameInTable="columnPROCEDURE_NAME" msprop:Generator_ColumnPropNameInRow="PROCEDURE_NAME" msprop:Generator_ColumnPropNameInTable="PROCEDURE_NAMEColumn" msprop:Generator_UserColumnName="PROCEDURE_NAME">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="225" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PARAM" msprop:Generator_ColumnVarNameInTable="columnPARAM" msprop:Generator_ColumnPropNameInRow="PARAM" msprop:Generator_ColumnPropNameInTable="PARAMColumn" msprop:Generator_UserColumnName="PARAM">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="22" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PAIS_DESCRIPCION" msprop:Generator_ColumnVarNameInTable="columnPAIS_DESCRIPCION" msprop:Generator_ColumnPropNameInRow="PAIS_DESCRIPCION" msprop:Generator_ColumnPropNameInTable="PAIS_DESCRIPCIONColumn" msprop:Generator_UserColumnName="PAIS_DESCRIPCION" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SUCURSAL_DESCRIPCION" msprop:Generator_ColumnVarNameInTable="columnSUCURSAL_DESCRIPCION" msprop:Generator_ColumnPropNameInRow="SUCURSAL_DESCRIPCION" msprop:Generator_ColumnPropNameInTable="SUCURSAL_DESCRIPCIONColumn" msprop:Generator_UserColumnName="SUCURSAL_DESCRIPCION" type="xs:string" minOccurs="0" />
+              <xs:element name="Ejecutar" msprop:Generator_ColumnVarNameInTable="columnEjecutar" msprop:Generator_ColumnPropNameInRow="Ejecutar" msprop:Generator_ColumnPropNameInTable="EjecutarColumn" msprop:Generator_UserColumnName="Ejecutar" type="xs:boolean" default="true" minOccurs="0" />
+              <xs:element name="PAIS_CLAVE" msprop:Generator_ColumnVarNameInTable="columnPAIS_CLAVE" msprop:Generator_ColumnPropNameInRow="PAIS_CLAVE" msprop:Generator_ColumnPropNameInTable="PAIS_CLAVEColumn" msprop:Generator_UserColumnName="PAIS_CLAVE" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="VSI_SUCURSALES" msprop:Generator_TableClassName="VSI_SUCURSALESDataTable" msprop:Generator_TableVarName="tableVSI_SUCURSALES" msprop:Generator_TablePropName="VSI_SUCURSALES" msprop:Generator_RowDeletingName="VSI_SUCURSALESRowDeleting" msprop:Generator_UserTableName="VSI_SUCURSALES" msprop:Generator_RowChangingName="VSI_SUCURSALESRowChanging" msprop:Generator_RowEvHandlerName="VSI_SUCURSALESRowChangeEventHandler" msprop:Generator_RowDeletedName="VSI_SUCURSALESRowDeleted" msprop:Generator_RowEvArgName="VSI_SUCURSALESRowChangeEvent" msprop:Generator_RowChangedName="VSI_SUCURSALESRowChanged" msprop:Generator_RowClassName="VSI_SUCURSALESRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="PAIS_CLAVE" msprop:Generator_ColumnVarNameInTable="columnPAIS_CLAVE" msprop:Generator_ColumnPropNameInRow="PAIS_CLAVE" msprop:Generator_ColumnPropNameInTable="PAIS_CLAVEColumn" msprop:Generator_UserColumnName="PAIS_CLAVE" type="xs:decimal" />
+              <xs:element name="PAIS_DESCRIPCION" msprop:Generator_ColumnVarNameInTable="columnPAIS_DESCRIPCION" msprop:Generator_ColumnPropNameInRow="PAIS_DESCRIPCION" msprop:Generator_ColumnPropNameInTable="PAIS_DESCRIPCIONColumn" msprop:Generator_UserColumnName="PAIS_DESCRIPCION" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SUCURSAL_CLAVE" msprop:Generator_ColumnVarNameInTable="columnSUCURSAL_CLAVE" msprop:Generator_ColumnPropNameInRow="SUCURSAL_CLAVE" msprop:Generator_ColumnPropNameInTable="SUCURSAL_CLAVEColumn" msprop:Generator_UserColumnName="SUCURSAL_CLAVE" type="xs:decimal" />
+              <xs:element name="SUCURSAL_DESCRIPCION" msprop:Generator_ColumnVarNameInTable="columnSUCURSAL_DESCRIPCION" msprop:Generator_ColumnPropNameInRow="SUCURSAL_DESCRIPCION" msprop:Generator_ColumnPropNameInTable="SUCURSAL_DESCRIPCIONColumn" msprop:Generator_UserColumnName="SUCURSAL_DESCRIPCION" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="150" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="DATOSPAIS" msprop:Generator_TableClassName="DATOSPAISDataTable" msprop:Generator_TableVarName="tableDATOSPAIS" msprop:Generator_TablePropName="DATOSPAIS" msprop:Generator_RowDeletingName="DATOSPAISRowDeleting" msprop:Generator_UserTableName="DATOSPAIS" msprop:Generator_RowChangingName="DATOSPAISRowChanging" msprop:Generator_RowEvHandlerName="DATOSPAISRowChangeEventHandler" msprop:Generator_RowDeletedName="DATOSPAISRowDeleted" msprop:Generator_RowEvArgName="DATOSPAISRowChangeEvent" msprop:Generator_RowChangedName="DATOSPAISRowChanged" msprop:Generator_RowClassName="DATOSPAISRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="PAIS_CLAVE" msprop:Generator_ColumnVarNameInTable="columnPAIS_CLAVE" msprop:Generator_ColumnPropNameInRow="PAIS_CLAVE" msprop:Generator_ColumnPropNameInTable="PAIS_CLAVEColumn" msprop:Generator_UserColumnName="PAIS_CLAVE" type="xs:decimal" />
+              <xs:element name="PAIS_NOMBRE" msprop:Generator_ColumnVarNameInTable="columnPAIS_NOMBRE" msprop:Generator_ColumnPropNameInRow="PAIS_NOMBRE" msprop:Generator_ColumnPropNameInTable="PAIS_NOMBREColumn" msprop:Generator_UserColumnName="PAIS_NOMBRE">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="MONEDA" msprop:Generator_ColumnVarNameInTable="columnMONEDA" msprop:Generator_ColumnPropNameInRow="MONEDA" msprop:Generator_ColumnPropNameInTable="MONEDAColumn" msprop:Generator_UserColumnName="MONEDA">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="5" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CLAVE_CIA" msprop:Generator_ColumnVarNameInTable="columnCLAVE_CIA" msprop:Generator_ColumnPropNameInRow="CLAVE_CIA" msprop:Generator_ColumnPropNameInTable="CLAVE_CIAColumn" msprop:Generator_UserColumnName="CLAVE_CIA">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="4" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

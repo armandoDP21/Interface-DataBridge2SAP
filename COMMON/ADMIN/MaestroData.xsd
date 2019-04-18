@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="MaestroData" targetNamespace="http://tempuri.org/MaestroData.xsd" xmlns:mstns="http://tempuri.org/MaestroData.xsd" xmlns="http://tempuri.org/MaestroData.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="ConnectionString1" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="ConnectionString1 (MySettings)" ParameterPrefix=":" PropertyReference="ApplicationSettings.My.MySettings.GlobalReference.Default.ConnectionString1" Provider="Oracle.DataAccess.Client" />
+        </Connections>
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="MaestroData" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="MaestroData" msprop:Generator_UserDSName="MaestroData">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="MENUPAISES" msprop:Generator_TableClassName="MENUPAISESDataTable" msprop:Generator_TableVarName="tableMENUPAISES" msprop:Generator_TablePropName="MENUPAISES" msprop:Generator_RowDeletingName="MENUPAISESRowDeleting" msprop:Generator_UserTableName="MENUPAISES" msprop:Generator_RowChangingName="MENUPAISESRowChanging" msprop:Generator_RowEvHandlerName="MENUPAISESRowChangeEventHandler" msprop:Generator_RowDeletedName="MENUPAISESRowDeleted" msprop:Generator_RowEvArgName="MENUPAISESRowChangeEvent" msprop:Generator_RowChangedName="MENUPAISESRowChanged" msprop:Generator_RowClassName="MENUPAISESRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="PAIS_CLAVE" msprop:Generator_ColumnVarNameInTable="columnPAIS_CLAVE" msprop:Generator_ColumnPropNameInRow="PAIS_CLAVE" msprop:Generator_ColumnPropNameInTable="PAIS_CLAVEColumn" msprop:Generator_UserColumnName="PAIS_CLAVE" type="xs:decimal" />
+              <xs:element name="PAIS_DESCRIPCION" msprop:Generator_ColumnVarNameInTable="columnPAIS_DESCRIPCION" msprop:Generator_ColumnPropNameInRow="PAIS_DESCRIPCION" msprop:Generator_ColumnPropNameInTable="PAIS_DESCRIPCIONColumn" msprop:Generator_UserColumnName="PAIS_DESCRIPCION" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="MENUSUCURSALES" msprop:Generator_TableClassName="MENUSUCURSALESDataTable" msprop:Generator_TableVarName="tableMENUSUCURSALES" msprop:Generator_TablePropName="MENUSUCURSALES" msprop:Generator_RowDeletingName="MENUSUCURSALESRowDeleting" msprop:Generator_UserTableName="MENUSUCURSALES" msprop:Generator_RowChangingName="MENUSUCURSALESRowChanging" msprop:Generator_RowEvHandlerName="MENUSUCURSALESRowChangeEventHandler" msprop:Generator_RowDeletedName="MENUSUCURSALESRowDeleted" msprop:Generator_RowEvArgName="MENUSUCURSALESRowChangeEvent" msprop:Generator_RowChangedName="MENUSUCURSALESRowChanged" msprop:Generator_RowClassName="MENUSUCURSALESRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="PAIS_CLAVE" msprop:Generator_ColumnVarNameInTable="columnPAIS_CLAVE" msprop:Generator_ColumnPropNameInRow="PAIS_CLAVE" msprop:Generator_ColumnPropNameInTable="PAIS_CLAVEColumn" msprop:Generator_UserColumnName="PAIS_CLAVE" type="xs:decimal" />
+              <xs:element name="SUCURSAL_CLAVE" msprop:Generator_ColumnVarNameInTable="columnSUCURSAL_CLAVE" msprop:Generator_ColumnPropNameInRow="SUCURSAL_CLAVE" msprop:Generator_ColumnPropNameInTable="SUCURSAL_CLAVEColumn" msprop:Generator_UserColumnName="SUCURSAL_CLAVE" type="xs:decimal" />
+              <xs:element name="SUCURSAL_DESCRIPCION" msprop:Generator_ColumnVarNameInTable="columnSUCURSAL_DESCRIPCION" msprop:Generator_ColumnPropNameInRow="SUCURSAL_DESCRIPCION" msprop:Generator_ColumnPropNameInTable="SUCURSAL_DESCRIPCIONColumn" msprop:Generator_UserColumnName="SUCURSAL_DESCRIPCION" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="150" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

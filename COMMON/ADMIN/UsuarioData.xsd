@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="UsuarioData" targetNamespace="http://tempuri.org/UsuarioData.xsd" xmlns:mstns="http://tempuri.org/UsuarioData.xsd" xmlns="http://tempuri.org/UsuarioData.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="ConnectionString1" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="ConnectionString1 (MySettings)" ParameterPrefix=":" PropertyReference="ApplicationSettings.My.MySettings.GlobalReference.Default.ConnectionString1" Provider="Oracle.DataAccess.Client" />
+        </Connections>
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="UsuarioData" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="UsuarioData" msprop:Generator_UserDSName="UsuarioData">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Usuario" msprop:Generator_TableClassName="UsuarioDataTable" msprop:Generator_TableVarName="tableUsuario" msprop:Generator_TablePropName="Usuario" msprop:Generator_RowDeletingName="UsuarioRowDeleting" msprop:Generator_UserTableName="Usuario" msprop:Generator_RowChangingName="UsuarioRowChanging" msprop:Generator_RowEvHandlerName="UsuarioRowChangeEventHandler" msprop:Generator_RowDeletedName="UsuarioRowDeleted" msprop:Generator_RowEvArgName="UsuarioRowChangeEvent" msprop:Generator_RowChangedName="UsuarioRowChanged" msprop:Generator_RowClassName="UsuarioRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="USUARIO_CLAVE" msprop:Generator_ColumnVarNameInTable="columnUSUARIO_CLAVE" msprop:Generator_ColumnPropNameInRow="USUARIO_CLAVE" msprop:Generator_ColumnPropNameInTable="USUARIO_CLAVEColumn" msprop:Generator_UserColumnName="USUARIO_CLAVE">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="NOMBRE" msprop:Generator_ColumnVarNameInTable="columnNOMBRE" msprop:Generator_ColumnPropNameInRow="NOMBRE" msprop:Generator_ColumnPropNameInTable="NOMBREColumn" msprop:Generator_UserColumnName="NOMBRE" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PASS_WORD" msprop:Generator_ColumnVarNameInTable="columnPASS_WORD" msprop:Generator_ColumnPropNameInRow="PASS_WORD" msprop:Generator_ColumnPropNameInTable="PASS_WORDColumn" msprop:Generator_UserColumnName="PASS_WORD" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="LAST_LOGIN" msprop:Generator_ColumnVarNameInTable="columnLAST_LOGIN" msprop:Generator_ColumnPropNameInRow="LAST_LOGIN" msprop:Generator_ColumnPropNameInTable="LAST_LOGINColumn" msprop:Generator_UserColumnName="LAST_LOGIN" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="FECHA_CREADO" msprop:Generator_ColumnVarNameInTable="columnFECHA_CREADO" msprop:Generator_ColumnPropNameInRow="FECHA_CREADO" msprop:Generator_ColumnPropNameInTable="FECHA_CREADOColumn" msprop:Generator_UserColumnName="FECHA_CREADO" type="xs:dateTime" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="UsuarioPerfiles" msprop:Generator_TableClassName="UsuarioPerfilesDataTable" msprop:Generator_TableVarName="tableUsuarioPerfiles" msprop:Generator_TablePropName="UsuarioPerfiles" msprop:Generator_RowDeletingName="UsuarioPerfilesRowDeleting" msprop:Generator_UserTableName="UsuarioPerfiles" msprop:Generator_RowChangingName="UsuarioPerfilesRowChanging" msprop:Generator_RowEvHandlerName="UsuarioPerfilesRowChangeEventHandler" msprop:Generator_RowDeletedName="UsuarioPerfilesRowDeleted" msprop:Generator_RowEvArgName="UsuarioPerfilesRowChangeEvent" msprop:Generator_RowChangedName="UsuarioPerfilesRowChanged" msprop:Generator_RowClassName="UsuarioPerfilesRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="USUARIO_CLAVE" msprop:Generator_ColumnVarNameInTable="columnUSUARIO_CLAVE" msprop:Generator_ColumnPropNameInRow="USUARIO_CLAVE" msprop:Generator_ColumnPropNameInTable="USUARIO_CLAVEColumn" msprop:Generator_UserColumnName="USUARIO_CLAVE">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PAIS_CLAVE" msprop:Generator_ColumnVarNameInTable="columnPAIS_CLAVE" msprop:Generator_ColumnPropNameInRow="PAIS_CLAVE" msprop:Generator_ColumnPropNameInTable="PAIS_CLAVEColumn" msprop:Generator_UserColumnName="PAIS_CLAVE" type="xs:decimal" />
+              <xs:element name="ICC" msprop:Generator_ColumnVarNameInTable="columnICC" msprop:Generator_ColumnPropNameInRow="ICC" msprop:Generator_ColumnPropNameInTable="ICCColumn" msprop:Generator_UserColumnName="ICC" type="xs:short" />
+              <xs:element name="ICV" msprop:Generator_ColumnVarNameInTable="columnICV" msprop:Generator_ColumnPropNameInRow="ICV" msprop:Generator_ColumnPropNameInTable="ICVColumn" msprop:Generator_UserColumnName="ICV" type="xs:short" />
+              <xs:element name="IFC" msprop:Generator_ColumnVarNameInTable="columnIFC" msprop:Generator_ColumnPropNameInRow="IFC" msprop:Generator_ColumnPropNameInTable="IFCColumn" msprop:Generator_UserColumnName="IFC" type="xs:short" />
+              <xs:element name="IMP" msprop:Generator_ColumnVarNameInTable="columnIMP" msprop:Generator_ColumnPropNameInRow="IMP" msprop:Generator_ColumnPropNameInTable="IMPColumn" msprop:Generator_UserColumnName="IMP" type="xs:short" />
+              <xs:element name="ILI" msprop:Generator_ColumnVarNameInTable="columnILI" msprop:Generator_ColumnPropNameInRow="ILI" msprop:Generator_ColumnPropNameInTable="ILIColumn" msprop:Generator_UserColumnName="ILI" type="xs:short" />
+              <xs:element name="IMF" msprop:Generator_ColumnVarNameInTable="columnIMF" msprop:Generator_ColumnPropNameInRow="IMF" msprop:Generator_ColumnPropNameInTable="IMFColumn" msprop:Generator_UserColumnName="IMF" type="xs:short" />
+              <xs:element name="PAIS_NOMBRE" msprop:Generator_ColumnVarNameInTable="columnPAIS_NOMBRE" msprop:Generator_ColumnPropNameInRow="PAIS_NOMBRE" msprop:Generator_ColumnPropNameInTable="PAIS_NOMBREColumn" msprop:Generator_UserColumnName="PAIS_NOMBRE">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="MONEDA" msprop:Generator_ColumnVarNameInTable="columnMONEDA" msprop:Generator_ColumnPropNameInRow="MONEDA" msprop:Generator_ColumnPropNameInTable="MONEDAColumn" msprop:Generator_UserColumnName="MONEDA">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="5" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CLAVE_CIA" msprop:Generator_ColumnVarNameInTable="columnCLAVE_CIA" msprop:Generator_ColumnPropNameInRow="CLAVE_CIA" msprop:Generator_ColumnPropNameInTable="CLAVE_CIAColumn" msprop:Generator_UserColumnName="CLAVE_CIA">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="4" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Usuario" />
+      <xs:field xpath="mstns:USUARIO_CLAVE" />
+    </xs:unique>
+    <xs:unique name="UsuarioPerfiles_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:UsuarioPerfiles" />
+      <xs:field xpath="mstns:USUARIO_CLAVE" />
+      <xs:field xpath="mstns:PAIS_CLAVE" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>
